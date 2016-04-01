@@ -1,0 +1,53 @@
+@import 'components/color';
+
+/*** Colors ***/
+$primary-color: color("light-blue", "accent-4") !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+$secondary-color: color("light-blue", "darken-1") !default;
+$focus-color: color("purple", "accent-4") !default;
+
+/* Progress Bar */
+$progress-bar-color: $focus-color !default ;
+
+$brand-green: color('green', 'base');
+$brand-yellow: color('yellow', 'accent-4');
+$brand-orange: color('amber', 'accent-4');
+$brand-deep-orange: color('orange', 'accent-4');
+$brand-red: color('red', 'base');
+$brand-pink: color('pink', 'base');
+$brand-purple: color('purple', 'base');
+$brand-deep-purple: color('deep-purple', 'base');
+
+$brand-success: $brand-green;
+$brand-warning: $brand-yellow;
+$brand-danger: $brand-red;
+$brand-alert: $brand-orange;
+$brand-black: #000;
+$brand-white: #FFF;
+
+$brand-dark-i:               lighten($brand-black, 7%)  !default; // #111
+$brand-dark-ii:              lighten($brand-black, 15%)  !default; // #222
+$brand-dark-iii:             lighten($brand-black, 20%)  !default; // #333
+$brand-dark-iv:              lighten($brand-black, 26%)  !default; // #444
+$brand-dark-v:               lighten($brand-black, 33.5%)  !default; // #555
+$brand-dark-vi:              lighten($brand-black, 40%) !default; // #666
+$brand-dark-vii:             lighten($brand-black, 46%) !default; // #777
+$brand-dark-viii:            lighten($brand-black, 53%) !default; // #888
+$brand-dark-ix:              lighten($brand-black, 60%) !default; // #999
+
+$brand-lighten-i:            lighten($brand-black, 66%) !default; // #aaa
+$brand-lighten-ii:           lighten($brand-black, 73%) !default; // #bbb
+$brand-lighten-iii:          lighten($brand-black, 80%) !default; // #ccc
+$brand-lighten-iv:           lighten($brand-black, 86%) !default; // #ddd
+$brand-lighten-v:            lighten($brand-black, 93.5%) !default; // #eee
+$brand-lighten-vi:           lighten($brand-black, 96%) !default; // #f5f5f5
+$brand-lighten-vii:          lighten($brand-black, 98%) !default; // #fafafa
+
+
+$input-border-color: color("grey", "lighten-2") !default;
+
+$h5-fontsize: 1.2rem !default;
+
+$roboto-font-path: "../assets/font/roboto/" !default;
+$icons-font-path: "../assets/font/material-design-icons/" !default;

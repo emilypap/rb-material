@@ -1,44 +1,35 @@
-@import "materialize";
-@import "mixins";
+@import "variables";
 @import "utilities";
-@import "colors";
+@import "mixins";
 
 $header-height: 160px;
 $main-margin: 50px;
 $main-height: calc(100% - 115px);
 
 html, body {
-  @extend .h-full;
+  @extend %h-full;
 }
 
-body {
-  overflow: auto !important;
-}
-
-.progress {
-  background-color: $primary-color;
-}
-
-/*.queries-nav-collapse {
-  text-align: center;
-  position: absolute;
-  margin-left: -20px;
-  left: 15%;
-  top: 14px;
-  background: transparent;
-  @extend .z-depth-0;
-}*/
 header {
+
+  @media screen and (max-width: 992px) {
+    nav .nav-wrapper {
+      padding-top: 45px;
+    }
+
+  }
+
   nav.top-nav {
     height: $header-height;
-    @extend .z-depth-0;
+    @extend %z-depth-0;
 
     .page-title {
+      position: relative;
+
       font: {
         size: 28px;
         weight: 300;
       }
-
     }
   }
 
@@ -63,7 +54,7 @@ header {
     > li {
       > a {
         background-color: transparent;
-        @extend .z-depth-0;
+        @extend %z-depth-0;
 
         i {
           line-height: 59.5px;
@@ -75,7 +66,7 @@ header {
 
       }
       &.user {
-        @extend .rel;
+        @extend %rel;
 
         &::after {
           display: block;
@@ -171,9 +162,10 @@ header {
 main {
   margin-top: -$main-margin;
   height: $main-height;
-  > .container {
+
+  .container {
     min-height: 100%;
-    @extend .z-depth-2;
+    @extend %z-depth-2; /*remove*/
   }
 
   .scrollToTop {
@@ -185,6 +177,7 @@ main {
 }
 
 .side-nav {
+  width: 80px;
   padding: 0;
   height: 100%;
   @include webkit-scrollbar(6px, $brand-lighten-iv, $brand-lighten-iv, $brand-lighten-i);
@@ -254,7 +247,7 @@ main {
       padding: 0 0.5rem;
 
       .item {
-        @extend .rel;
+        @extend %rel;
         padding: 0 1rem 0 0.5rem;
         margin: 1rem 0.5rem;
 
@@ -331,9 +324,13 @@ main {
       }
     }
   }
-
-  .brand-logo {
+  .brand-logo, .help {
     position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+  }
+  .brand-logo {
     top: 0;
     img {
       height: 58px;
@@ -342,18 +339,9 @@ main {
   }
 
   .help {
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    font-size: 2.5rem;
-    width: 100%;
-    text-align: center;
+    bottom: 0px;    font-size: 2.5rem;
 
   }
-}
-
-.progress {
-  margin: 0;
 }
 
 .query-builder {
@@ -365,12 +353,6 @@ main {
     padding: 8px 0 0 0;
     @include transition(all, 0.35s, ease-in-out);
 
-    .prefix {
-      @extend .grey-text, .text-lighten-1;
-      &:hover {
-        @extend .blue-text;
-      }
-    }
     /*
      padding: 8px 6px 0px 45px;border: 0px;
      border-bottom: 1px solid $input-border-color;
@@ -386,10 +368,31 @@ main {
     .search-area {
       min-height: 36px;
 
+      .queries-nav-collapse {
+        width: 3.8rem;
+
+        .small {
+          margin: 0;
+        }
+        .tiny {
+          font-size: 1.35rem;
+          margin: 5px 0 0 0;
+        }
+
+        &:hover {
+          @extend .light-blue-text, .text-accent-4;
+
+        }
+      }
+
       &-tools {
         position: absolute;
         right: 0;
         top: 10px;
+
+        a {
+          font-size: 20px;
+        }
       }
 
       .chip {
@@ -404,7 +407,7 @@ main {
           @include transition(all, 0.35s, ease-in-out);
         }
         &:hover {
-          @extend .z-depth-1;
+          @extend %z-depth-1;
           i {
             background-color: rgba($brand-white, 0.5);
 
@@ -427,49 +430,31 @@ main {
         margin-left: 3.8rem;
         width: calc(100% - 3.8rem);
       }
+      /*
+            input[type=text] {
+              min-height: 32px;
+              height: auto;
+              border: 0px;
+              @extend %z-depth-0;
+              padding: 0;
+              width: auto;
+              display: inline-block;
+              margin: 0 6px;
+              font-size: 0.9rem;
+            }
+           */
 
-      input[type=text] {
-        min-height: 32px;
-        height: auto;
-        border: 0px;
-        @extend .z-depth-0;
-        padding: 0;
-        width: auto;
-        display: inline-block;
-        margin: 0 6px;
-        font-size: 0.9rem;
-      }
-      textarea {
 
-      }
-      // Style Placeholders
-      ::-webkit-input-placeholder {
-        font-size: 0.9rem;
-        font-weight: 300;
-      }
 
-      :-moz-placeholder {
-        /* Firefox 18- */
-        font-size: 0.9rem;
-        font-weight: 300;
-      }
 
-      ::-moz-placeholder {
-        /* Firefox 19+ */
-        font-size: 0.9rem;
-        font-weight: 300;
-      }
 
-      :-ms-input-placeholder {
-        font-size: 0.9rem;
-        font-weight: 300;
-      }
 
     }
   }
 
   .filters-nav {
-    font-size: $h6-fontsize - 0.1rem;
+    font-size: 0.9rem;
+
 
     .clear-filters {
       vertical-align: middle;
@@ -501,43 +486,25 @@ main {
 
 }
 
-.tabs {
+.result-tabs {
+  height: 80px;
+  margin: 0;
 
   > .tab {
+
     > a {
-      @extend .grey-text, .text-darken-1;
+      padding: 0 5%;
+      line-height: 80px;
+      font-size: 1.15rem;
+      display: inline;
 
-      &.active {
-        color: $secondary-color !important;
-      }
-    }
-
-    &:hover {
-      > a {
-        color: $secondary-color !important;
+      > span {
+        @extend .light;
       }
     }
   }
-
-  &.result-tabs {
-    height: 80px;
-    margin: 0;
-
-    > .tab {
-
-      > a {
-        padding: 0 5%;
-        line-height: 80px;
-        font-size: 1.15rem;
-
-        > span {
-          @extend .light;
-        }
-      }
-    }
-    .indicator {
-      @extend .grey, .lighten-4;
-    }
+  .indicator {
+    background-color: $brand-lighten-vi;
   }
 }
 
@@ -571,18 +538,21 @@ main {
 
     }
   }
+
   .article-list {
     article {
       padding: 12px 0;
       border-bottom: 1px solid;
       border-color: $brand-lighten-iv;
       @include transition(all, 0.35s, ease-in-out);
+
       .toolbar {
         opacity: 0;
         @include transition(all, 0.35s, ease-in-out);
       }
+
       &:hover {
-        @extend .z-depth-1;
+        @extend %z-depth-1;
         .toolbar {
           opacity: 1;
         }
@@ -599,133 +569,6 @@ main {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  header nav .nav-wrapper {
-    padding-top: 45px;
-  }
 
-}
 
-.dropdown-form {
-  padding: 12px;
-  overflow: visible;
-  top: 100% !important;
-  margin-top: 12px;
 
-  h5 {
-    text-align: left;
-  }
-
-  .input-field {
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-
-    input {
-      margin: 0;
-    }
-
-    .optgroup {
-      height: 0;
-      min-height: 0;
-      span {
-        display: none;
-      }
-    }
-  }
-
-}
-
-.modal {
-  z-index: 10;
-
-  .close {
-    top: 0;
-    height: 45px;
-    line-height: 45px;
-    width: 45px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    font-size: 1.5rem;
-  }
-
-  &.position-center {
-    top: 50%;
-    left: 50%;
-  }
-
-  &.small {
-    width: 300px;
-    .modal-content {
-      padding-bottom: 0;
-    }
-
-    &.position-center {
-      margin-left: -150px;
-      margin-top: -150px;
-    }
-  }
-
-  &.medium {
-    width: 600px;
-    .modal-content {
-      padding-bottom: 0;
-    }
-
-    &.position-center {
-      margin-left: -300px;
-      margin-top: -200px;
-    }
-  }
-
-  &.filter {
-    top: 420px !important;
-
-    .nav-horiz {
-      > li > a {
-        color: $brand-white;
-        &:hover {
-          color: rgba($brand-white, 0.8) !important;
-        }
-      }
-    }
-
-    .header {
-      color: rgba($brand-white, 0.8);
-      font-size: 1.4rem;
-      margin-bottom: 1.5rem;
-      @extend .light;
-
-      .dropdown-button {
-        color: $brand-white;
-        @extend .light;
-        i.right {
-          margin-left: 0;
-        }
-      }
-    }
-
-    .select-operator {
-      padding-top:12px;
-
-      .dropdown-content{
-        bottom: 20px;
-        top: auto !important;
-        > li{
-          min-height:0px;
-          > a{
-            line-height: 100%;
-          }
-        }
-      }
-    }
-
-    .modal-content-suggest {
-      padding: 24px;
-    }
-    .modal-footer {
-      background-color: $brand-lighten-v;
-
-    }
-  }
-}
