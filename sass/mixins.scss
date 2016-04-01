@@ -1,0 +1,54 @@
+
+@mixin border-radius($top-left,$top-right,$bottom-right,$bottom-left){
+  -webkit-border-top-right-radius: $top-right;
+  -webkit-border-bottom-right-radius: $bottom-right;
+  -webkit-border-bottom-left-radius: $bottom-left;
+  -webkit-border-top-left-radius: $top-left;
+  -moz-border-radius-topright: $top-right;
+  -moz-border-radius-bottomright: $bottom-right;
+  -moz-border-radius-bottomleft: $bottom-left;
+  -moz-border-radius-topleft: $top-left;
+  border-top-right-radius: $top-right;
+  border-bottom-right-radius: $bottom-right;
+  border-bottom-left-radius: $bottom-left;
+  border-top-left-radius: $top-left;
+}
+
+@mixin transition($type,$time,$effect){
+  -webkit-transition: $type $time $effect;
+  -o-transition: $type $time $effect;
+  transition: $type $time $effect;
+}
+
+
+
+@mixin blur($grayscale, $blur, $opacity) {
+  -webkit-filter: grayscale($grayscale) blur($blur) opacity($opacity);
+  -moz-filter: grayscale($grayscale) blur($blur) opacity($opacity);
+  -ms-filter: grayscale($grayscale) blur($blur) opacity($opacity);
+  -o-filter: grayscale($grayscale) blur($blur) opacity($opacity);
+  filter: grayscale($grayscale) blur($blur) opacity($opacity);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='1');
+}
+
+
+@mixin webkit-scrollbar($width, $track-piece, $track-piece-line, $scrollbar-thumb ) {
+
+  &::-webkit-scrollbar {
+    width:$width;
+  }
+
+  &::-webkit-scrollbar-track-piece {
+    background-color: $track-piece;
+    border: 1px solid $track-piece-line;
+    margin: 2px !important;
+    @include border-radius(0, 0, 0, 0);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $scrollbar-thumb;
+    background-image: none;
+    @include border-radius(0, 0, 0, 0);
+    cursor: pointer;
+  }
+}

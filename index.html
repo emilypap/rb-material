@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>reportbrain</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="sass/materialize.css" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="sass/layout.css" media="screen,projection"/>
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body id="top">
+
+<div class="progress">
+    <div class="determinate" style="width: 25%;"></div>
+</div>
+
+
+<header>
+<nav class="top-nav">
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="page-title left">
+
+                Discover
+            </div>
+
+            <div class="right date-range">
+                <i class="material-icons absolute left">date_range</i>
+                <input type="date" class="datepicker">
+            </div>
+        </div>
+    </div>
+    <ul class="user-menu">
+        <li><a class="btn-floating btn-large  center-align"><i class="material-icons">assignment</i></a></li>
+        <li class="user rel">
+            <a class="btn-floating btn-large dropdown-button  center-align" href='#'
+               data-activates='dropdown2' data-constrainwidth="false"
+               data-alignment="right">
+                <span class="user-avatar left circle"><i class="material-icons">person</i></span>
+                <i class="right material-icons">keyboard_arrow_down</i>
+
+            </a>
+            <ul id='dropdown2' class='dropdown-content'>
+                <li>
+                    <blockquote>
+                        <p>Name Surname<br/>
+                            username@domain.com</p>
+
+                        <p><a class="waves-effect waves-light btn" href="https://account.reportbrain.com/"
+                              target="_blank">Account</a></p>
+                    </blockquote>
+                </li>
+                <li class="divider"></li>
+                <li><a href="#!">Log Out</a></li>
+            </ul>
+
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+    <a href="#" data-activates="nav-mobile"
+       class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only"><i
+            class="mdi-navigation-menu"></i>
+    </a>
+</div>
+
+<div id="nav-mobile" class="side-nav fixed valign-wrapper">
+    <a href="" id="logo-container" class="brand-logo blue-text text-darken-1"><img
+            src="https://account.reportbrain.com/media/wysiwyg/icon-app.png" alt="reportbrain"></a>
+    <ul class="main-nav valign">
+        <li class="active"><a href="" class="material-icons large">search</a></li>
+        <li><a href="" class="material-icons large">view_module</a></li>
+        <li><a href="" class="material-icons large">web</a></li>
+    </ul>
+    <a href="" class="help grey-text text-lighten-1 material-icons">help_outline</a>
+</div>
+
+<div id="slide-queries" class="side-nav leftside-navigation left-aligned grey darken-1">
+<a href="#" data-activates="slide-queries"
+   class="absolute queries-nav-close-collapse right white-text waves-effect circle close"><i
+        class="mdi-navigation-close"></i></a>
+
+<div class="w-full h-full">
+<ul class="tabs transparent grey darken-2">
+    <li class="tab"><a href="#History"><i class="material-icons">restore</i></a></li>
+    <li class="tab"><a class="active" href="#Favorities"><i class="material-icons">star</i></a>
+    </li>
+    <li class="tab"><a href="#Alerts"><i class="material-icons">notifications</i></a></li>
+</ul>
+
+
+<div id="History"></div>
+<div id="Favorities">
+
+<ul class="list-header list-unstyled">
+    <li class="left h5">Favotires</li>
+    <li class="right"><a class="btn-flat waves-effect" href=""><i class="material-icons left tiny">add</i>New
+        Folder</a></li>
+</ul>
+
+<ul class="items collapsible" data-collapsible="accordion">
+<li>
+    <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Folder First
+    </div>
+    <div class="collapsible-body">
+        <ul>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet,
+                    consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+        </ul>
+    </div>
+</li>
+<li>
+    <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Folder Second
+    </div>
+    <div class="collapsible-body">
+        <ul>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet,
+                    consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+        </ul>
+    </div>
+</li>
+<li>
+    <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Folder Third
+    </div>
+    <div class="collapsible-body">
+        <ul>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet,
+                    consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet,
+                    consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet,
+                    consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+            <li class="item">
+                <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+                    amet</a>
+                <button type="button"
+                        class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+                    delete
+                </button>
+            </li>
+        </ul>
+    </div>
+</li>
+<li class="item">
+    <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit
+        amet</a>
+    <button type="button"
+            class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+        delete
+    </button>
+</li>
+<li class="item">
+    <a href=""><i class="material-icons item-type">search</i>Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m</a>
+    <button type="button"
+            class="btn-floating btn-medium waves-effect waves-light circle z-depth-0 center-align material-icons delete">
+        delete
+    </button>
+</li>
+</ul>
+
+</div>
+<div id="Alerts"></div>
+
+</div>
+</div>
+</header>
+
+<main>
+<div class="container white">
+<div class="discover-app">
+
+
+<div class="query-builder grey lighten-3">
+    <div class="search-container input-field">
+
+        <div class="search-area">
+            <a href="#" data-activates="slide-queries" class="queries-nav-collapse prefix" style="width: 3.8rem;">
+                <i class="inline material-icons left small" style="margin: 0; vertical-align: top;">search</i>
+                <i class="inline material-icons left tiny" style="font-size: 1.35rem; margin: 5px 0 0 0;">keyboard_arrow_down</i>
+            </a>
+            <input placeholder="Type your Keywords" class="materialize-textarea"/>
+
+            <!--<span class="chip">
+                 Search Term
+                 <i class="material-icons">close</i>
+             </span>
+             <span class="chip">
+                 Search Term
+                 <i class="material-icons">close</i>
+             </span>
+             <input placeholder="Type a Term" type="text">-->
+
+
+        </div>
+                                <span class="search-area-tools">
+                                   <a href="" class="material-icons orange-text">warning</a>
+                                    <a href="" class="material-icons grey-text clear-search-area">close</a>
+                                </span>
+
+
+    </div>
+    <ul class="filters-nav nav-horiz">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown3" data-constrainwidth="false">Search Terms<i
+                class="material-icons right">arrow_drop_down</i></a>
+            <ul id='dropdown3' class='dropdown-content'>
+                <li><a href="">Anyware</a></li>
+                <li><a href="">Title</a></li>
+                <li><a href="">Body</a></li>
+                <li><a href="">Title & Body</a></li>
+            </ul>
+        </li>
+        <li><a href="">Language</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown4" data-constrainwidth="false">News Fields<i
+                class="material-icons right">arrow_drop_down</i></a>
+            <ul id='dropdown4' class='dropdown-content'>
+                <li><a href="">Article Origin</a></li>
+                <li><a href="">Organization</a></li>
+                <li><a href="">Person</a></li>
+                <li><a href="">Category</a></li>
+                <li><a href="">Location</a></li>
+                <li><a href="">Source Domain</a></li>
+            </ul>
+        </li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown5" data-constrainwidth="false">Twiter Fields<i
+                class="material-icons right">arrow_drop_down</i></a>
+            <ul id='dropdown5' class='dropdown-content'>
+                <li><a href="">Hashtag</a></li>
+                <li><a href="">Sent From</a></li>
+                <li><a href="">Sent To</a></li>
+                <li><a href="">Referencing</a></li>
+                <li><a href="">Positive Attitude</a></li>
+                <li><a href="">Negative Attitude</a></li>
+                <li><a href="">Asking a Question</a></li>
+                <li><a href="">Linking to Url</a></li>
+                <li><a href="">Twitterfeed</a></li>
+            </ul>
+        </li>
+        <li class="right hide"><a href="" class="grey-text clear-filters">Clear All <i
+                class="material-icons inline right">close</i></a></li>
+    </ul>
+    <ul class="query-toolbar absolute action-btn horizontal">
+        <li>
+            <a class="btn circle waves-effect waves-light blue">Search</a>
+        </li>
+        <li>
+            <a href='#' data-alignment="right" data-constrainwidth="false" data-activates='dropdown10'
+               class="dropdown-button btn-floating circle waves-effect waves-light yellow darken-2 material-icons">star_border</a>
+            <!-- Dropdown Structure -->
+            <div id='dropdown10' class='dropdown-content dropdown-form arrow-right'>
+                <h5>Add to Favorites</h5>
+
+                <div class="input-field">
+                    <input placeholder="Placeholder" type="text" autofocus>
+                </div>
+                <div class="collection folder-tree">
+                    <a href="#!" class="collection-item active"><i
+                            class="material-icons">folder_special</i>Favorites</a>
+                    <a href="#!" class="collection-item"><i class="material-icons">folder</i>Folder Name A</a>
+                    <a href="#!" class="collection-item"><i class="material-icons">folder</i>Folder B</a>
+                    <a href="#!" class="collection-item"><i class="material-icons">folder</i>Folder C</a>
+                    <a href="#!" class="collection-item"><i class="material-icons">folder</i>Folder D</a>
+                    <a href="#!" class="collection-item"><i class="material-icons">folder</i>Folder Name Sample E</a>
+                </div>
+                <div class="collection footer">
+                    <a href="#CreateNewFolderModal" class="modal-trigger collection-item "><i
+                            class="material-icons">add</i>New Folder</a>
+
+                </div>
+                <a href="" class="btn-flat waves-effect blue-text">Add</a>
+                <a href="" class="btn-flat waves-effect">Cancel</a>
+
+            </div>
+
+        </li>
+        <li>
+            <a class="dropdown-button btn-floating circle waves-effect waves-light white material-icons  grey-text "
+               href='#' data-activates='dropdown6' data-constrainwidth="false" data-alignment="right">more_vert</a>
+            <ul id='dropdown6' class='dropdown-content'>
+                <li><a href="#!"><i class="material-icons">add_circle_outline</i>New Query</a></li>
+                <li><a href="#!"><i class="material-icons">text_format</i>Advanced Query</a></li>
+                <li class="divider"></li>
+                <li><a href="#!"><i class="material-icons">subdirectory_arrow_right</i>Export Data</a></li>
+                <li><a href="#!"><i class="material-icons">add_alert</i>Create Alert</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<ul class="result-tabs tabs z-depth-0 w-full grey lighten-4">
+    <li class="tab col s6 right-align"><a class="active" href="#news">News <span>(293)</span></a></li>
+    <li class="tab col s6 left-align"><a href="#tweets">Tweets <span>(100)</span></a></li>
+</ul>
+
+<div id="news" class="w-full">
+<div class=" grey lighten-5" style="padding: 0 15%;">
+    <ul class="tabs z-depth-0   grey lighten-5">
+        <li class="tab col s2 "><a class="active" href="#Articles">Articles</a></li>
+        <li class="tab col s2 "><a href="#Overview">Overview</a></li>
+        <li class="tab col s2 "><a href="#Organizations">Organizations</a></li>
+        <li class="tab col s2 "><a href="#Persons">Persons</a></li>
+        <li class="tab col s2 "><a href="#Relations">Relations</a></li>
+    </ul>
+</div>
+<div id="#Articles" class="results">
+<nav class="navbar grey lighten-4 z-depth-0">
+    <ul class="nav-horiz row">
+        <li class="input-field col s3">
+            <select>
+                <option value="1" selected>Sort by Relevance</option>
+                <option value="2">Sort by Date</option>
+            </select>
+        </li>
+        <li class="input-field col s3">
+            <select>
+                <option value="1" selected>All Sources (158)</option>
+                <option value="2">Premium Sources (20)</option>
+            </select>
+        </li>
+    </ul>
+</nav>
+<ul class="article-list">
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-160-150x150.jpg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text">2 hours ago</h6>
+            <h5>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href="">3 Similar</a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i>
+                    </a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-153-150x150.jpg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text">a day ago</h6>
+            <h5>
+                Far far away, behind the word mountains, far from the countries Vokalia and Cons
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href=""></a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="#" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i></a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <!--<img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-73-150x150.jpg"
+                 alt="" class="circle responsive-img">-->
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text"> Feb 9, 2016</h6>
+            <h5>
+                The quick, brown fox jumps over a lazy dog
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href=""></a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="#" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i></a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-148-150x150.jpg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text"> Feb 9, 2016</h6>
+            <h5>
+                Li Europan lingues es membres del sam familie Lor separat existentie es un myth
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href="">12 Similar</a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="#" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i></a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-240-150x150.jpg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text"> Feb 9, 2016</h6>
+            <h5>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href=""></a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="#" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i></a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-175-150x150.jpg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text"> Feb 9, 2016</h6>
+            <h5>
+                One morning, when Gregor Samsa
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href=""></a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="#" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i></a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-144-150x150.jpeg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text"> Feb 9, 2016</h6>
+            <h5>
+                A wonderful serenity has taken possession of my entire soul
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href="">5 Similar</a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="#" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i></a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-160-150x150.jpg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text">2 hours ago</h6>
+            <h5>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href="">3 Similar</a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="#" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i></a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <!--<img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-153-150x150.jpg"
+                 alt="" class="circle responsive-img">-->
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text">a day ago</h6>
+            <h5>
+                Far far away, behind the word mountains, far from the countries Vokalia and Cons
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href=""></a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="#" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i></a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-73-150x150.jpg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="grey-text"> Feb 9, 2016</h6>
+            <h5>
+                The quick, brown fox jumps over a lazy dog
+            </h5>
+            <h6><a href="">in.reuters.com</a></h6>
+            <h6>
+                <small class="left grey-text"><b>Politics</b> | United States</small>
+                <small class="right"><a href=""></a></small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="#" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i></a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Article</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+</ul>
+<ul class="pagination center-align">
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active"><a href="#!">1</a></li>
+    <li class="waves-effect"><a href="#!">2</a></li>
+    <li class="waves-effect"><a href="#!">3</a></li>
+    <li class="waves-effect"><a href="#!">4</a></li>
+    <li class="waves-effect"><a href="#!">5</a></li>
+    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a>
+    </li>
+</ul>
+</div>
+</div>
+
+<div id="tweets" class="results">
+<nav class="navbar grey lighten-4 z-depth-0">
+    <ul class="nav-horiz row">
+        <li class="input-field col s3">
+            <select>
+                <option value="1" selected>Sort by Relevance</option>
+                <option value="2">Sort by Date</option>
+            </select>
+        </li>
+
+    </ul>
+</nav>
+<ul class="article-list">
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="//emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-160-150x150.jpg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="date-time left grey-text">a few seconds ago</h6>
+            <h6 class="right"><a href="">
+                <img class="circle avatar"
+                     src="http://pbs.twimg.com/profile_images/442366920549888000/pjhFG7Mm_normal.jpeg">
+                <b>Domenic Sherony</b> <span class="light">@DSherony</span>
+            </a></h6>
+            <span class="clearfix"></span>
+            <h5>
+                <em>
+                    RT @PolitiFact: "Obama spent $7b to bring electricity to Africa, failed miserably." Spent implies
+                    spent. Pants on Fire! https://t.co/KQhuSh…
+                </em>
+            </h5>
+            <h6>
+                <small class="grey-text">
+                    RETWEETS:<b> 3 </b> | FAVORITES:<b> 34 </b>
+                </small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i
+                            class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i>
+                    </a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Tweet</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+
+        </div>
+        <div class="col s9">
+            <h6 class="date-time left grey-text">a few seconds ago</h6>
+            <h6 class="right"><a href="">
+                <img class="circle avatar"
+                     src="http://pbs.twimg.com/profile_images/3466607695/0b25d9cf40ee66d638d10f6bf5cb6d4c_normal.jpeg">
+                <b>Gerald Clerge</b> <span class="light">@Dominar_G</span>
+            </a></h6>
+            <span class="clearfix"></span>
+            <h5>
+                <em>
+                    US President, Barack Obama, Seeks Funds to Fight Zika https://t.co/vhqM0GrwUE
+                </em>
+            </h5>
+            <h6>
+                <small class="grey-text">
+                    RETWEETS:<b> 0 </b> | FAVORITES:<b> 0 </b>
+                </small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i
+                            class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i>
+                    </a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Tweet</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+
+        </div>
+        <div class="col s9">
+            <h6 class="date-time left grey-text">a few seconds ago</h6>
+            <h6 class="right"><a href="">
+                <img class="circle avatar"
+                     src="http://pbs.twimg.com/profile_images/473994332777623552/WJNqrGkO_normal.jpeg">
+                <b>PATRICIA STOCKMAN</b> <span class="light">@pesb2012</span>
+            </a></h6>
+            <span class="clearfix"></span>
+            <h5>
+                <em>
+                    Bernie Sanders' Ridiculous Charge Against Obama - The Daily Banter https://t.co/L0wmyp6895
+                </em>
+            </h5>
+            <h6>
+                <small class="grey-text">
+                    RETWEETS:<b> 0 </b> | FAVORITES:<b> 0 </b>
+                </small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i
+                            class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i>
+                    </a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Tweet</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <div class="frame-round">
+                <div class="crop">
+                    <img src="http://pbs.twimg.com/media/Ca8rVOlW8AAGEkv.jpg"
+                         alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col s9">
+            <h6 class="date-time left grey-text">1 hour ago</h6>
+            <h6 class="right"><a href="">
+                <img class="circle avatar"
+                     src="http://pbs.twimg.com/profile_images/671115241082757120/Yji-rtO5_normal.jpg">
+                <b>PMatt Greenberg</b> <span class="light">@torbald2895</span>
+            </a></h6>
+            <span class="clearfix"></span>
+            <h5>
+                <em>
+                    RT @forexpcb: @CNN @HillaryClinton MEANWHILE MY 401K IS GETTING SLAUGHTERED EACH DAY WHILE OBAMA
+                    BRAGS ABOUT THE FUCKING ECONOMY. STUPID NI…
+                </em>
+            </h5>
+            <h6>
+                <small class="grey-text">
+                    RETWEETS:<b> 1 </b> | FAVORITES:<b> 0 </b>
+                </small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i
+                            class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i>
+                    </a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Tweet</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+<li>
+    <article class="row valign-wrapper">
+        <div class="col s2">
+            <img src="http://emerald.sekizgen.net/wp-content/uploads/2015/07/emerald-240-150x150.jpg"
+                 alt="" class="circle responsive-img">
+        </div>
+        <div class="col s9">
+            <h6 class="date-time left grey-text">2 hours ago</h6>
+            <h6 class="right"><a href="">
+                <img class="circle avatar"
+                     src="http://pbs.twimg.com/profile_images/697815665613234176/7dGmsseh_normal.png">
+                <b>Elry Henwyn</b> <span class="light">@ninedogs3</span>
+            </a></h6>
+            <span class="clearfix"></span>
+            <h5>
+                <em>
+                    Obama's great economy: Dow down 370. Yellen clueless https://t.co/utrhDrBIhA
+                </em>
+            </h5>
+            <h6>
+                <small class="grey-text">
+                    RETWEETS:<b> 1 </b> | FAVORITES:<b> 0 </b>
+                </small>
+            </h6>
+        </div>
+        <div class="col s1  valign-wrapper">
+            <a class="toolbar valign dropdown-button  material-icons  grey-text "
+               href='#' data-activates='dropdown7' data-constrainwidth="false"
+               data-alignment="right">more_vert</a>
+            <ul id='dropdown7' class='dropdown-content'>
+                <li>
+                    <a href="" class="dropdown-button" data-activates='dropdown8'
+                       data-constrainwidth="false" data-alignment="right"><i
+                            class="material-icons">playlist_add</i>Add
+                        to Collections <i class="right material-icons">chevron_right</i>
+                    </a>
+                    <ul id='dropdown8' class='dropdown-content'>
+                        <li><a><i class="material-icons">open_folder</i>Collections</a></li>
+                        <li><a><i class="material-icons">folder</i>Big Data</a></li>
+                        <li class="divider"></li>
+                        <li><a><i class="material-icons">create_new_folder</i>New Folder</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!"><i class="material-icons">share</i>Share <i
+                        class="right material-icons">chevron_right</i></a></li>
+                <li><a href="#!"><i class="material-icons">translate</i>Translate</a></li>
+                <li class="divider"></li>
+                <li><a><i class="material-icons">launch</i>Original Tweet</a></li>
+
+
+            </ul>
+        </div>
+    </article>
+</li>
+</ul>
+<ul class="pagination center-align">
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active"><a href="#!">1</a></li>
+    <li class="waves-effect"><a href="#!">2</a></li>
+    <li class="waves-effect"><a href="#!">3</a></li>
+    <li class="waves-effect"><a href="#!">4</a></li>
+    <li class="waves-effect"><a href="#!">5</a></li>
+    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a>
+    </li>
+</ul>
+</div>
+
+</div>
+</div>
+<a class="scrollToTop btn-floating btn-large waves-effect waves-light grey lighten-1"
+   href="#top"><i class="material-icons">vertical_align_top</i></a>
+
+
+<!-- Modal Structure-->
+<div id="CreateNewFolderModal" class="modal small position-center">
+    <div class="modal-content">
+        <div class="input-field">
+            <input placeholder="New Folder" type="text" autofocus>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn-flat waves-effect blue-text">Save</a>
+        <a href="#" class="btn-flat waves-effect">Cancel</a>
+    </div>
+</div>
+
+
+<!-- Modal Structure-->
+<div class="modal medium position-center white filter" style="display: block;">
+    <div class="modal-content purple darken-1">
+        <a class="absolute right white-text waves-effect circle close" href="#"><i class="mdi-navigation-close"></i></a>
+
+        <div class="header left">
+            <span class="inline">News Fields: </span>
+            <a class="inline dropdown-button" href="#!" data-activates="dropdown-3" data-constrainwidth="false">Article
+                Origin<i class="material-icons right">keyboard_arrow_down</i></a>
+            <ul id="dropdown-3" class="dropdown-content">
+                <li><a href="">Article Origin</a></li>
+                <li><a href="">Organization</a></li>
+                <li><a href="">Person</a></li>
+                <li><a href="">Category</a></li>
+                <li><a href="">Location</a></li>
+                <li><a href="">Source Domain</a></li>
+            </ul>
+        </div>
+
+        <div class="input-field">
+            <input placeholder="New Folder" type="text" autofocus>
+        </div>
+
+        <ul class="nav-horiz right light small-text">
+            <li><a href>SELECT ALL</a></li>
+            <li><a href>DESELECT ALL</a></li>
+        </ul>
+
+        <span class="clearfix"></span>
+    </div>
+
+    <div class="modal-content-suggest">
+        <h5>Suggestions based to your Query :</h5>
+        <ul class="row">
+            <li class="col s4">
+                <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked"/>
+                <label for="filled-in-box">Filled in</label>
+            </li>
+            <li class="col s4">
+                <input type="checkbox" id="test8" disabled="disabled"/>
+                <label for="test8">Brown</label>
+            </li>
+            <li class="col s4">
+                <input type="checkbox" class="filled-in" id="test9"/>
+                <label for="test9">Filled in</label>
+            </li>
+            <li class="col s4">
+                <input type="checkbox" class="filled-in" id="test8"/>
+                <label for="test8">Filled in</label>
+            </li>
+            <li class="col s4">
+                <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked"/>
+                <label for="filled-in-box">Filled in</label>
+            </li>
+            <li class="col s4">
+                <input type="checkbox" id="test8" disabled="disabled"/>
+                <label for="test8">Brown</label>
+            </li>
+            <li class="col s4">
+                <input type="checkbox" class="filled-in" id="test9"/>
+                <label for="test9">Filled in</label>
+            </li>
+            <li class="col s4">
+                <input type="checkbox" class="filled-in" id="test8"/>
+                <label for="test8">Filled in</label>
+            </li>
+            <li class="col s4">
+                <input type="checkbox" class="filled-in" id="test9"/>
+                <label for="test9">Filled in</label>
+            </li>
+            <li class="col s4">
+                <input type="checkbox" class="filled-in" id="test8"/>
+                <label for="test8">Filled in</label>
+            </li>
+        </ul>
+        <hr/>
+        <div class="select-operator">
+            <span class="inline">Operator:</span>
+            <a class='inline dropdown-button' href='#' data-activates='dropdown19'><span
+                    class="orange-text bold">Any</span> <i class="material-icons right">arrow_drop_down</i></a>
+            <!-- Dropdown Structure -->
+            <ul id='dropdown19' class='dropdown-content'>
+                <li><a href="#!"><span class="orange-text bold">Any</span></a></li>
+                <li><a href="#!"><span class="green-text bold">All</span></a></li>
+                <li><a href="#!"><span class="red-text bold">None</span></a></li>
+            </ul>
+           </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn-flat waves-effect red-text left">Delete</a>
+        <a href="#" class="btn-flat waves-effect blue-text">Add</a>
+        <a href="#" class="btn-flat waves-effect">Cancel</a>
+    </div>
+</div>
+
+
+</main>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/date_picker/picker.date.js"></script>
+<script src="js/date_picker/picker.js"></script>
+
+<script type="javascript">
+    $('.datepicker').pickadate({
+        selectMonths: true, // Creates a dropdown to control month
+        selectYears: 15 // Creates a dropdown of 15 years to control year
+    });
+
+    $('.button-collapse').sideNav({
+                menuWidth: 80 // Default is 240
+            }
+    );
+
+    // Initialize collapse button
+    $(".queries-nav-collapse").sideNav();
+    // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+    //$('.collapsible').collapsible();
+    $('.queries-nav-collapse').sideNav({
+        menuWidth: 300, // Default is 240
+        edge: 'right', // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+@import "materialize";
+
+
+label{
+  color:$brand-dark-viii !important;
+  @extend .light;
+}
+.purple {
+  // Style Placeholders
+  ::-webkit-input-placeholder {
+    color: rgba($brand-white, 0.35); font-weight: 300;
+  }
+
+  :-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba($brand-white, 0.35);font-weight: 300;
+
+  }
+
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba($brand-white, 0.35);font-weight: 300;
+
+  }
+
+  :-ms-input-placeholder {
+    color: rgba($brand-white, 0.35);font-weight: 300;
+
+  }
+}
+
