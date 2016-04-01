@@ -3,10 +3,13 @@
 
 
 label{
-  color:$brand-dark-viii !important;
+  color:$brand-dark-vi !important;
   @extend .light;
 }
 .purple {
+  input {
+    color: $brand-white;
+  }
   // Style Placeholders
   ::-webkit-input-placeholder {
     color: rgba($brand-white, 0.35); font-weight: 300;

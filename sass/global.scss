@@ -30,9 +30,7 @@
     position: relative;
     display: block;
     margin: 0 0 0 12px;
-    &:first-child{
-      margin: 0;
-    }
+
     > a {
       position: relative;
       display: block;
@@ -131,7 +129,6 @@
 
   li > a {
     > i {
-      margin-right: 12px;
       vertical-align: top;
     }
   }
@@ -170,37 +167,35 @@
     margin-top: 0;
     .collection-item {
       text-align: left;
-      &:first-child{
+      &:first-child {
         padding-left: 8px;
       }
-      i{
+      i {
         margin-right: 0.5rem;
         vertical-align: bottom;
       }
     }
 
-    &.folder-tree{
-      margin:0;
+    &.folder-tree {
+      margin: 0;
 
       .collection-item {
-        color:$brand-lighten-i;
+        color: $brand-lighten-i;
 
-        &:hover{
-          color:$primary-color;
+        &:hover {
+          color: $primary-color;
           background-color: $brand-lighten-v;
         }
-        &.active{
+        &.active {
           background-color: $brand-lighten-vi;
-          color:$primary-color;
+          color: $primary-color;
         }
       }
     }
 
-    &.footer{
+    &.footer {
       border-top: 0;
     }
-
-
 
   }
 }
@@ -258,6 +253,33 @@
   }
 }
 
+// Style Placeholders
+::-webkit-input-placeholder {
+  color: $brand-lighten-i;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: $brand-lighten-i;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: $brand-lighten-i;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  color: $brand-lighten-i;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
 .frame-round {
   display: inline-block;
   vertical-align: top;
@@ -287,7 +309,6 @@
   }
 }
 
-
 .modal {
   z-index: 10;
 
@@ -298,7 +319,7 @@
     width: 45px;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 16px 12px;
     font-size: 1.5rem;
   }
 
@@ -334,45 +355,6 @@
   &.filter {
     top: 420px !important;
 
-    .nav-horiz {
-      > li > a {
-        color: $brand-white;
-        &:hover {
-          color: rgba($brand-white, 0.8) !important;
-        }
-      }
-    }
-
-    .header {
-      color: rgba($brand-white, 0.8);
-      font-size: 1.4rem;
-      margin-bottom: 1.5rem;
-      @extend .light;
-
-      .dropdown-button {
-        color: $brand-white;
-        @extend .light;
-        i.right {
-          margin-left: 0;
-        }
-      }
-    }
-
-    .select-operator {
-      padding-top:12px;
-
-      .dropdown-content{
-        bottom: 20px;
-        top: auto !important;
-        > li{
-          min-height:0px;
-          > a{
-            line-height: 100%;
-          }
-        }
-      }
-    }
-
     .modal-content-suggest {
       padding: 24px;
     }
@@ -383,38 +365,19 @@
   }
 }
 
-
-// Style Placeholders
-::-webkit-input-placeholder {
-  color:$brand-lighten-i;
-  font-size: 0.9rem;
-  font-weight: 300;
+.v-align-m {
+  vertical-align: middle;
 }
 
-:-moz-placeholder {
-  /* Firefox 18- */
-  color:$brand-lighten-i;
-  font-size: 0.9rem;
-  font-weight: 300;
+.bold {
+  font-weight: 800;
 }
 
-::-moz-placeholder {
-  /* Firefox 19+ */
-  color:$brand-lighten-i;
-  font-size: 0.9rem;
-  font-weight: 300;
+.small-text {
+  font-size: 12px;
 }
 
-:-ms-input-placeholder {
-  color:$brand-lighten-i;
-  font-size: 0.9rem;
-  font-weight: 300;
-}
-
-
-.bold { font-weight: 800; }
-
-hr{
+hr {
   border: 0;
   border-bottom: 1px solid $brand-lighten-iv;
 }

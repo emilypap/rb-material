@@ -322,7 +322,7 @@
 </div>
 </header>
 
-<main>
+<main class="intro">
 <div class="container white">
 <div class="discover-app">
 
@@ -357,6 +357,7 @@
 
     </div>
     <ul class="filters-nav nav-horiz">
+        <li><a href="">Language</a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown3" data-constrainwidth="false">Search Terms<i
                 class="material-icons right">arrow_drop_down</i></a>
             <ul id='dropdown3' class='dropdown-content'>
@@ -366,7 +367,6 @@
                 <li><a href="">Title & Body</a></li>
             </ul>
         </li>
-        <li><a href="">Language</a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown4" data-constrainwidth="false">News Fields<i
                 class="material-icons right">arrow_drop_down</i></a>
             <ul id='dropdown4' class='dropdown-content'>
@@ -442,7 +442,7 @@
         </li>
     </ul>
 </div>
-
+<div class="result-container">
 <ul class="result-tabs tabs z-depth-0 w-full grey lighten-4">
     <li class="tab col s6 right-align"><a class="active" href="#news">News <span>(293)</span></a></li>
     <li class="tab col s6 left-align"><a href="#tweets">Tweets <span>(100)</span></a></li>
@@ -1230,7 +1230,7 @@
     </li>
 </ul>
 </div>
-
+</div>
 </div>
 </div>
 <a class="scrollToTop btn-floating btn-large waves-effect waves-light grey lighten-1"
@@ -1252,14 +1252,14 @@
 
 
 <!-- Modal Structure-->
-<div class="modal medium position-center white filter" style="display: block;">
+<div class="modal medium position-center white filter" style="/*display: block;*/">
     <div class="modal-content purple darken-1">
         <a class="absolute right white-text waves-effect circle close" href="#"><i class="mdi-navigation-close"></i></a>
 
-        <div class="header left">
+        <div class="header">
             <span class="inline">News Fields: </span>
             <a class="inline dropdown-button" href="#!" data-activates="dropdown-3" data-constrainwidth="false">Article
-                Origin<i class="material-icons right">keyboard_arrow_down</i></a>
+                Origin<i class="material-icons v-align-m">keyboard_arrow_down</i></a>
             <ul id="dropdown-3" class="dropdown-content">
                 <li><a href="">Article Origin</a></li>
                 <li><a href="">Organization</a></li>
@@ -1270,8 +1270,34 @@
             </ul>
         </div>
 
-        <div class="input-field">
+        <!--<div class="input-field">
             <input placeholder="New Folder" type="text" autofocus>
+        </div>-->
+
+
+        <div class="filter-search-area">
+            <div class="right">
+                <a class="dropdown-button white-text waves-effect circle material-icons"
+                   href='#' data-activates='dropdown16' data-alignment="right" data-constrainwidth="false">more_vert</a>
+                <ul id='dropdown16' class='dropdown-content'>
+                    <li><a class="dropdown-button" data-activates="dropdown18" data-alignment="right"
+                           data-constrainwidth="false" href=""><i class="material-icons">playlist_add</i>Add to
+                        Collections <i class="right material-icons">chevron_right</i>
+                    </a></li>
+                    <li><a href="#!"><i class="material-icons">playlist_play</i>Import List</a></li>
+                </ul>
+            </div>
+            <span class="chip">
+                 Greece
+                 <i class="material-icons">close</i>
+             </span>
+             <span class="chip">
+                Cyprus
+                 <i class="material-icons">close</i>
+             </span>
+            <input placeholder="+ Origin" type="text">
+
+
         </div>
 
         <ul class="nav-horiz right light small-text">
@@ -1290,32 +1316,32 @@
                 <label for="filled-in-box">Filled in</label>
             </li>
             <li class="col s4">
-                <input type="checkbox" id="test8" disabled="disabled"/>
-                <label for="test8">Brown</label>
+                <input type="checkbox" id="test18" disabled="disabled"/>
+                <label for="test18">Brown</label>
             </li>
             <li class="col s4">
-                <input type="checkbox" class="filled-in" id="test9"/>
-                <label for="test9">Filled in</label>
+                <input type="checkbox" class="filled-in" id="test14"/>
+                <label for="test14">Filled in</label>
             </li>
             <li class="col s4">
-                <input type="checkbox" class="filled-in" id="test8"/>
-                <label for="test8">Filled in</label>
+                <input type="checkbox" class="filled-in" id="test13"/>
+                <label for="test13">Filled in</label>
             </li>
             <li class="col s4">
-                <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked"/>
-                <label for="filled-in-box">Filled in</label>
+                <input type="checkbox" class="filled-in" id="filled-in-box3" checked="checked"/>
+                <label for="filled-in-box3">Filled in</label>
             </li>
             <li class="col s4">
-                <input type="checkbox" id="test8" disabled="disabled"/>
-                <label for="test8">Brown</label>
+                <input type="checkbox" id="test12" disabled="disabled"/>
+                <label for="test12">Brown</label>
             </li>
             <li class="col s4">
-                <input type="checkbox" class="filled-in" id="test9"/>
-                <label for="test9">Filled in</label>
+                <input type="checkbox" class="filled-in" id="test11"/>
+                <label for="test11">Filled in</label>
             </li>
             <li class="col s4">
-                <input type="checkbox" class="filled-in" id="test8"/>
-                <label for="test8">Filled in</label>
+                <input type="checkbox" class="filled-in" id="test10"/>
+                <label for="test10">Filled in</label>
             </li>
             <li class="col s4">
                 <input type="checkbox" class="filled-in" id="test9"/>
@@ -1330,14 +1356,14 @@
         <div class="select-operator">
             <span class="inline">Operator:</span>
             <a class='inline dropdown-button' href='#' data-activates='dropdown19'><span
-                    class="orange-text bold">Any</span> <i class="material-icons right">arrow_drop_down</i></a>
+                    class="orange-text bold">Any</span> <i class="v-align-m grey-text text-darken-2 material-icons">arrow_drop_down</i></a>
             <!-- Dropdown Structure -->
             <ul id='dropdown19' class='dropdown-content'>
                 <li><a href="#!"><span class="orange-text bold">Any</span></a></li>
                 <li><a href="#!"><span class="green-text bold">All</span></a></li>
                 <li><a href="#!"><span class="red-text bold">None</span></a></li>
             </ul>
-           </div>
+        </div>
     </div>
     <div class="modal-footer">
         <a href="#" class="btn-flat waves-effect red-text left">Delete</a>
