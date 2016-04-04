@@ -2,8 +2,10 @@
 %inline {
   display: inline-block !important;
 }
-.inline{ @extend %inline; }
 
+.inline {
+  @extend %inline;
+}
 
 .right-align {
   text-align: right !important;
@@ -16,6 +18,7 @@
 %absolute {
   position: absolute;
 }
+
 .absolute {
   @extend %absolute;
 
@@ -30,22 +33,50 @@
 %rel {
   position: relative;
 }
-.rel{ @extend %rel; }
+
+.rel {
+  @extend %rel;
+}
 
 %w-full {
   width: 100%;
 }
-.w-full{ @extend %w-full; }
+
+.w-full {
+  @extend %w-full;
+}
 
 %h-full {
   height: 100%;
 }
-.h-full{ @extend %h-full; }
+
+.h-full {
+  @extend %h-full;
+}
+
+%table {
+  display: table;
+}
+
+.table {
+  @extend %table;
+}
+
+%table-row {
+  display: table-row;
+}
+
+.table-row {
+  @extend %table-row;
+}
 
 %table-col {
   display: table-cell;
 }
-.table-col{ @extend %table-col; }
+
+.table-col {
+  @extend %table-col;
+}
 
 %clearfix {
   &:before,
@@ -57,28 +88,37 @@
     clear: both;
   }
 }
-.clearfix{ @extend %clearfix; }
+
+.clearfix {
+  @extend %clearfix;
+}
 
 // Z-levels
 %z-depth-0 {
   box-shadow: none !important;
 }
-%z-depth-1{
+
+%z-depth-1 {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-%z-depth-1-half{
+
+%z-depth-1-half {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
-%z-depth-2{
+
+%z-depth-2 {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-%z-depth-3{
+
+%z-depth-3 {
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-%z-depth-4{
+
+%z-depth-4 {
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
 }
-%z-depth-5{
+
+%z-depth-5 {
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
 }
 

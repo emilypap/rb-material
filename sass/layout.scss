@@ -351,20 +351,17 @@ main {
 
   .search-container {
     margin: 0 12px;
-    padding: 8px 0 0 0;
     @include transition(all, 0.35s, ease-in-out);
+    padding: 8px 6px 0px 3.8rem;
+    border: 0px;
+    border-bottom: 1px solid $input-border-color;
+    &:hover, &:focus {
+      border-color: $primary-color;
 
-    /*
-     padding: 8px 6px 0px 45px;border: 0px;
-     border-bottom: 1px solid $input-border-color;
-     &:hover, &:focus {
-       border-color: $primary-color;
-
-     }*/
-
-    /*.prefix {
+    }
+    .prefix {
       left: 0;
-    }*/
+    }
 
     .search-area {
       min-height: 36px;
@@ -428,22 +425,23 @@ main {
         padding: 0 60px 6px 0;
         font-size: 0.9rem;
         box-sizing: border-box;
-        margin-left: 3.8rem;
+        margin-left: 0;
+        border: 0;
         width: calc(100% - 3.8rem);
       }
-      /*
-            input[type=text] {
-              min-height: 32px;
-              height: auto;
-              border: 0px;
-              @extend %z-depth-0;
-              padding: 0;
-              width: auto;
-              display: inline-block;
-              margin: 0 6px;
-              font-size: 0.9rem;
-            }
-           */
+
+      input[type=text] {
+        @extend .light-blue-text, .text-accent-4;
+        min-height: 32px;
+        height: auto;
+        border: 0px;
+        @extend %z-depth-0;
+        padding: 0;
+        width: auto;
+        display: inline-block;
+        margin: 0 6px;
+        font-size: 0.9rem;
+      }
 
     }
   }

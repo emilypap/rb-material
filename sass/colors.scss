@@ -2,10 +2,6 @@
 @import "variables";
 
 
-label{
-  color:$brand-dark-vi !important;
-  @extend .light;
-}
 .purple {
   input {
     color: $brand-white;

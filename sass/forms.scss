@@ -1,0 +1,35 @@
+@import "variables";
+
+
+label{
+  color:$brand-dark-vi !important;
+  @extend .light;
+}
+
+
+// Style Placeholders
+::-webkit-input-placeholder {
+  color: $brand-lighten-i;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: $brand-lighten-i;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: $brand-lighten-i;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  color: $brand-lighten-i;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
