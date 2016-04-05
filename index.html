@@ -28,13 +28,60 @@
     <div class="container">
         <div class="nav-wrapper">
             <div class="page-title left">
-
                 Discover
             </div>
+            <div class="right">
+                <div class="date-range rel">
+                    <a href class="dropdown-button" data-activates="dropdown31" data-alignment="right"
+                       data-constrainwidth="false"><span
+                            class="material-icons">date_range</span> Date Range <span class="material-icons">keyboard_arrow_down</span></a>
 
-            <div class="right date-range">
-                <i class="material-icons absolute left">date_range</i>
-                <input type="date" class="datepicker">
+                    <div id="dropdown31" class="dropdown-content dropdown-form arrow-right">
+                        <div class="purple darken-2">
+                            <div class="switch center">
+                                <label>
+                                    <h6 class="inline white-text">Date Range:</h6>
+                                    <input type="checkbox">
+                                    <span class="lever"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="presets-range purple darken-1">
+                            <table>
+                                <colgroup>
+                                    <col width="25%"> <col width="25%"> <col width="25%"> <col width="25%">
+                                </colgroup>
+                                <tbody  class="date-slider ">
+                                <tr>
+                                    <td>
+                                        <button class="btn  slider-segment active" type="button"></button>
+                                        <button class="btn-flat slider-title active" type="button">Past 24h
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn  slider-segment" type="button"></button>
+                                        <button class="btn-flat slider-title " type="button">Past Week
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn  slider-segment" type="button"></button>
+                                        <button class="btn-flat slider-title " type="button">Past Month
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <button class="btn slider-segment" type="button"></button>
+                                        <button class="btn-flat slider-title " type="button">Past 6 Months
+                                        </button>
+                                    </td>
+                                </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <div>Calender</div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -346,7 +393,7 @@
                  <i class="material-icons">close</i>
              </span>
 
-             <input placeholder="Type a Term" type="text">
+            <input placeholder="Type a Term" type="text">
 
 
         </div>
@@ -1273,11 +1320,15 @@
                             <span class="large material-icons">more_vert</span>
                         </a>
                         <ul>
-                            <li><a class="btn-floating grey lighten-1 z-depth-0"><i class="material-icons">link</i></a></li>
-                            <li><a class="btn-floating grey lighten-1 z-depth-0"><i class="material-icons">share</i></a></li>
-                            <li><a class="btn-floating grey lighten-1 z-depth-0"><i class="material-icons">file_download</i></a>
+                            <li><a class="btn-floating grey lighten-1 z-depth-0"><i class="material-icons">link</i></a>
                             </li>
-                            <li><a class="btn-floating grey lighten-1 z-depth-0"><i class="material-icons">print</i></a></li>
+                            <li><a class="btn-floating grey lighten-1 z-depth-0"><i class="material-icons">share</i></a>
+                            </li>
+                            <li><a class="btn-floating grey lighten-1 z-depth-0"><i
+                                    class="material-icons">file_download</i></a>
+                            </li>
+                            <li><a class="btn-floating grey lighten-1 z-depth-0"><i class="material-icons">print</i></a>
+                            </li>
                         </ul>
                     </li>
 
@@ -1289,15 +1340,21 @@
 
             </header>
             <div class="content" style="max-width: 660px;">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
-                justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper
-                nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
-                laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
-
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                    felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                    justo,
+                    fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
+                    vitae,
+                    justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                    elementum semper
+                    nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend
+                    ac, enim.
+                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
+                    varius
+                    laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
 
 
                 <div class="slider">
@@ -1334,11 +1391,15 @@
                 </div>
 
                 <p>Curabitur ullamcorper ultricies
-                nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
-                sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
-                Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis
-                ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
-                sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
+                    nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper
+                    libero,
+                    sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
+                    lorem.
+                    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam
+                    quis
+                    ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet
+                    nibh. Donec
+                    sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</p>
             </div>
         </div>
 
@@ -1346,10 +1407,14 @@
             <div class="table h-full w-full">
                 <div class="table-row h-full w-full">
                     <div class="table-cell h-full w-full">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                        fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                        felis,
+                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                        justo,
+                        fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                        venenatis vitae,
                         justo.
                     </div>
                 </div>
@@ -1363,7 +1428,7 @@
 
 
 <!-- Modal Structure-->
-<div class="modal medium position-center white filter" style="display: block;">
+<div class="modal medium position-center white filter" style="display: -block;">
     <div class="modal-content purple darken-1">
         <a class="absolute right white-text waves-effect circle close" href="#"><i class="mdi-navigation-close"></i></a>
 

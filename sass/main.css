@@ -22,7 +22,7 @@
 .materialize-red-text.text-lighten-2 {
   color: #ee6e73 !important; }
 
-.materialize-red.lighten-1 {
+.materialize-red.lighten-1, header .date-range .dropdown-content .switch label .materialize-red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .materialize-red.lever {
   background-color: #ea454b !important; }
 
 .materialize-red-text.text-lighten-1 {
@@ -82,7 +82,7 @@
 .red-text.text-lighten-2, .query-builder .search-container .search-area .chip:hover i.text-lighten-2:hover, .query-builder .text-lighten-2.clear-search-area:hover, .query-builder .text-lighten-2.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-2:hover {
   color: #E57373 !important; }
 
-.red.lighten-1 {
+.red.lighten-1, header .date-range .dropdown-content .switch label .red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .red.lever {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1, .query-builder .search-container .search-area .chip:hover i.text-lighten-1:hover, .query-builder .text-lighten-1.clear-search-area:hover, .query-builder .text-lighten-1.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-1:hover {
@@ -166,7 +166,7 @@
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1 {
+.pink.lighten-1, header .date-range .dropdown-content .switch label .pink.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .pink.lever {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
@@ -226,85 +226,85 @@
 .pink-text.text-accent-4, .query-builder .search-container .search-area .pink-text.queries-nav-collapse:hover, .query-builder .search-container .search-area input.pink-text[type=text], .query-builder .pink-text.clear-search-area:hover, .query-builder .pink-text.clear-filters:hover {
   color: #c51162 !important; }
 
-.purple.lighten-5 {
+.purple.lighten-5, header .date-range .dropdown-content .switch label .lighten-5.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-5.lever {
   background-color: #f3e5f5 !important; }
 
 .purple-text.text-lighten-5, .filter .filter-search-area .chip i.text-lighten-5 {
   color: #f3e5f5 !important; }
 
-.purple.lighten-4, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
+.purple.lighten-4, header .date-range .dropdown-content .switch label .lighten-4.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper:hover, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper:hover, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper:hover .lever.caret, .results .navbar .select-wrapper:hover header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-4.lever, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
   background-color: #e1bee7 !important; }
 
 .purple-text.text-lighten-4, .filter .filter-search-area .chip i.text-lighten-4 {
   color: #e1bee7 !important; }
 
-.purple.lighten-3 {
+.purple.lighten-3, header .date-range .dropdown-content .switch label .lighten-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-3.lever {
   background-color: #ce93d8 !important; }
 
 .purple-text.text-lighten-3, .filter .filter-search-area .chip i.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2 {
+.purple.lighten-2, header .date-range .dropdown-content .switch label .lighten-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-2.lever {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2, .filter .filter-search-area .chip i.text-lighten-2 {
   color: #ba68c8 !important; }
 
-.purple.lighten-1 {
+.purple.lighten-1, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #ab47bc !important; }
 
 .purple-text.text-lighten-1, .filter .filter-search-area .chip i.text-lighten-1 {
   color: #ab47bc !important; }
 
-.purple {
+.purple, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #9c27b0 !important; }
 
 .purple-text, .filter .filter-search-area .chip i {
   color: #9c27b0 !important; }
 
-.purple.darken-1 {
+.purple.darken-1, header .date-range .dropdown-content .switch label .darken-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-1.lever {
   background-color: #8e24aa !important; }
 
 .purple-text.text-darken-1, .tabs > .tab > a.purple-text, .filter .filter-search-area .chip i {
   color: #8e24aa !important; }
 
-.purple.darken-2 {
+.purple.darken-2, header .date-range .dropdown-content .switch label .darken-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-2.lever {
   background-color: #7b1fa2 !important; }
 
 .purple-text.text-darken-2, .filter .filter-search-area .chip i.text-darken-2 {
   color: #7b1fa2 !important; }
 
-.purple.darken-3, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
+.purple.darken-3, header .date-range .dropdown-content .switch label .darken-3.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper .lever.caret, .results .navbar .select-wrapper header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-3.lever, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
   background-color: #6a1b9a !important; }
 
 .purple-text.text-darken-3, .filter .filter-search-area .chip i.text-darken-3 {
   color: #6a1b9a !important; }
 
-.purple.darken-4 {
+.purple.darken-4, header .date-range .dropdown-content .switch label .darken-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-4.lever {
   background-color: #4a148c !important; }
 
 .purple-text.text-darken-4, .nav-horiz > li > a.purple-text:hover, .filter .filter-search-area .chip i.text-darken-4 {
   color: #4a148c !important; }
 
-.purple.accent-1 {
+.purple.accent-1, header .date-range .dropdown-content .switch label .accent-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-1.lever {
   background-color: #ea80fc !important; }
 
 .purple-text.text-accent-1, .filter .filter-search-area .chip i.text-accent-1 {
   color: #ea80fc !important; }
 
-.purple.accent-2 {
+.purple.accent-2, header .date-range .dropdown-content .switch label .accent-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-2.lever {
   background-color: #e040fb !important; }
 
 .purple-text.text-accent-2, .filter .filter-search-area .chip i.text-accent-2 {
   color: #e040fb !important; }
 
-.purple.accent-3 {
+.purple.accent-3, header .date-range .dropdown-content .switch label .accent-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-3.lever {
   background-color: #d500f9 !important; }
 
 .purple-text.text-accent-3, .filter .filter-search-area .chip i.text-accent-3 {
   color: #d500f9 !important; }
 
-.purple.accent-4, .purple.intro {
+.purple.accent-4, header .date-range .dropdown-content .switch label .accent-4.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .purple.intro {
   background-color: #aa00ff !important; }
 
 .purple-text.text-accent-4, .query-builder .search-container .search-area .purple-text.queries-nav-collapse:hover, .query-builder .search-container .search-area .filter .filter-search-area .chip i.queries-nav-collapse:hover, .filter .filter-search-area .chip .query-builder .search-container .search-area i.queries-nav-collapse:hover, .query-builder .search-container .search-area input.purple-text[type=text], .query-builder .purple-text.clear-search-area:hover, .query-builder .filter .filter-search-area .chip i.clear-search-area:hover, .filter .filter-search-area .chip .query-builder i.clear-search-area:hover, .query-builder .purple-text.clear-filters:hover, .query-builder .filter .filter-search-area .chip i.clear-filters:hover, .filter .filter-search-area .chip .query-builder i.clear-filters:hover, .filter .filter-search-area .chip i.text-accent-4 {
@@ -334,7 +334,7 @@
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important; }
 
-.deep-purple.lighten-1 {
+.deep-purple.lighten-1, header .date-range .dropdown-content .switch label .deep-purple.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-purple.lever {
   background-color: #7e57c2 !important; }
 
 .deep-purple-text.text-lighten-1 {
@@ -418,7 +418,7 @@
 .indigo-text.text-lighten-2 {
   color: #7986cb !important; }
 
-.indigo.lighten-1 {
+.indigo.lighten-1, header .date-range .dropdown-content .switch label .indigo.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .indigo.lever {
   background-color: #5c6bc0 !important; }
 
 .indigo-text.text-lighten-1 {
@@ -502,7 +502,7 @@
 .blue-text.text-lighten-2, .side-nav.fixed .main-nav > li:hover > a.text-lighten-2, .side-nav.fixed .main-nav > li.active > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-2.caret {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .side-nav.fixed .main-nav > li.lighten-1.active::before {
+.blue.lighten-1, header .date-range .dropdown-content .switch label .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > li.lever.active::before, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed .main-nav > li.lighten-1.active::before {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .side-nav.fixed .main-nav > li:hover > a.text-lighten-1, .side-nav.fixed .main-nav > li.active > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-1.caret {
@@ -586,7 +586,7 @@
 .light-blue-text.text-lighten-2, .query-builder .search-container .search-area .text-lighten-2.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-2[type=text] {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, .lighten-1.intro {
+.light-blue.lighten-1, header .date-range .dropdown-content .switch label .light-blue.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-blue.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .lighten-1.intro {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1, .query-builder .search-container .search-area .text-lighten-1.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-1[type=text] {
@@ -670,7 +670,7 @@
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1 {
+.cyan.lighten-1, header .date-range .dropdown-content .switch label .cyan.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .cyan.lever {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
@@ -754,7 +754,7 @@
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1 {
+.teal.lighten-1, header .date-range .dropdown-content .switch label .teal.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .teal.lever {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
@@ -838,7 +838,7 @@
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1 {
+.green.lighten-1, header .date-range .dropdown-content .switch label .green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .green.lever {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
@@ -922,7 +922,7 @@
 .light-green-text.text-lighten-2 {
   color: #aed581 !important; }
 
-.light-green.lighten-1 {
+.light-green.lighten-1, header .date-range .dropdown-content .switch label .light-green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-green.lever {
   background-color: #9ccc65 !important; }
 
 .light-green-text.text-lighten-1 {
@@ -1006,7 +1006,7 @@
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1 {
+.lime.lighten-1, header .date-range .dropdown-content .switch label .lime.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lime.lever {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
@@ -1090,7 +1090,7 @@
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1 {
+.yellow.lighten-1, header .date-range .dropdown-content .switch label .yellow.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .yellow.lever {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
@@ -1174,7 +1174,7 @@
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1 {
+.amber.lighten-1, header .date-range .dropdown-content .switch label .amber.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .amber.lever {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
@@ -1258,7 +1258,7 @@
 .orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
-.orange.lighten-1 {
+.orange.lighten-1, header .date-range .dropdown-content .switch label .orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .orange.lever {
   background-color: #ffa726 !important; }
 
 .orange-text.text-lighten-1 {
@@ -1342,7 +1342,7 @@
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1 {
+.deep-orange.lighten-1, header .date-range .dropdown-content .switch label .deep-orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-orange.lever {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
@@ -1426,7 +1426,7 @@
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1 {
+.brown.lighten-1, header .date-range .dropdown-content .switch label .brown.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .brown.lever {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
@@ -1486,7 +1486,7 @@
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1 {
+.blue-grey.lighten-1, header .date-range .dropdown-content .switch label .blue-grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue-grey.lever {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
@@ -1546,7 +1546,7 @@
 .grey-text.text-lighten-2, .nav-horiz > li > a.text-lighten-2:hover, .tabs > .tab > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper, .results .navbar .select-wrapper .text-lighten-2.caret {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1 {
+.grey.lighten-1, header .date-range .dropdown-content .switch label .grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .grey.lever {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .nav-horiz > li > a.text-lighten-1:hover, .tabs > .tab > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper, .results .navbar .select-wrapper .text-lighten-1.caret {
@@ -1588,7 +1588,7 @@
 .shades-text.text-black {
   color: #000000 !important; }
 
-.shades.white, .tabs.transparent .shades.indicator {
+.shades.white, .tabs.transparent .shades.indicator, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn-large {
   background-color: #FFFFFF !important; }
 
 .shades-text.text-white {
@@ -1606,10 +1606,10 @@
 .black-text {
   color: #000000 !important; }
 
-.white, .tabs.transparent .indicator {
+.white, .tabs.transparent .indicator, header .date-range .dropdown-content .presets-range .date-slider .slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-large {
   background-color: #FFFFFF !important; }
 
-.white-text, .filter .filter-search-area .chip {
+.white-text, header .date-range .dropdown-content .presets-range .date-slider .slider-title.active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-flat, .filter .filter-search-area .chip {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -1644,7 +1644,7 @@
 .materialize-red-text.text-lighten-2 {
   color: #ee6e73 !important; }
 
-.materialize-red.lighten-1 {
+.materialize-red.lighten-1, header .date-range .dropdown-content .switch label .materialize-red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .materialize-red.lever {
   background-color: #ea454b !important; }
 
 .materialize-red-text.text-lighten-1 {
@@ -1704,7 +1704,7 @@
 .red-text.text-lighten-2, .query-builder .search-container .search-area .chip:hover i.text-lighten-2:hover, .query-builder .text-lighten-2.clear-search-area:hover, .query-builder .text-lighten-2.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-2:hover {
   color: #E57373 !important; }
 
-.red.lighten-1 {
+.red.lighten-1, header .date-range .dropdown-content .switch label .red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .red.lever {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1, .query-builder .search-container .search-area .chip:hover i.text-lighten-1:hover, .query-builder .text-lighten-1.clear-search-area:hover, .query-builder .text-lighten-1.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-1:hover {
@@ -1788,7 +1788,7 @@
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1 {
+.pink.lighten-1, header .date-range .dropdown-content .switch label .pink.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .pink.lever {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
@@ -1848,85 +1848,85 @@
 .pink-text.text-accent-4, .query-builder .search-container .search-area .pink-text.queries-nav-collapse:hover, .query-builder .search-container .search-area input.pink-text[type=text], .query-builder .pink-text.clear-search-area:hover, .query-builder .pink-text.clear-filters:hover {
   color: #c51162 !important; }
 
-.purple.lighten-5 {
+.purple.lighten-5, header .date-range .dropdown-content .switch label .lighten-5.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-5.lever {
   background-color: #f3e5f5 !important; }
 
 .purple-text.text-lighten-5, .filter .filter-search-area .chip i.text-lighten-5 {
   color: #f3e5f5 !important; }
 
-.purple.lighten-4, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
+.purple.lighten-4, header .date-range .dropdown-content .switch label .lighten-4.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper:hover, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper:hover, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper:hover .lever.caret, .results .navbar .select-wrapper:hover header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-4.lever, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
   background-color: #e1bee7 !important; }
 
 .purple-text.text-lighten-4, .filter .filter-search-area .chip i.text-lighten-4 {
   color: #e1bee7 !important; }
 
-.purple.lighten-3 {
+.purple.lighten-3, header .date-range .dropdown-content .switch label .lighten-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-3.lever {
   background-color: #ce93d8 !important; }
 
 .purple-text.text-lighten-3, .filter .filter-search-area .chip i.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2 {
+.purple.lighten-2, header .date-range .dropdown-content .switch label .lighten-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-2.lever {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2, .filter .filter-search-area .chip i.text-lighten-2 {
   color: #ba68c8 !important; }
 
-.purple.lighten-1 {
+.purple.lighten-1, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #ab47bc !important; }
 
 .purple-text.text-lighten-1, .filter .filter-search-area .chip i.text-lighten-1 {
   color: #ab47bc !important; }
 
-.purple {
+.purple, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #9c27b0 !important; }
 
 .purple-text, .filter .filter-search-area .chip i {
   color: #9c27b0 !important; }
 
-.purple.darken-1 {
+.purple.darken-1, header .date-range .dropdown-content .switch label .darken-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-1.lever {
   background-color: #8e24aa !important; }
 
 .purple-text.text-darken-1, .tabs > .tab > a.purple-text, .filter .filter-search-area .chip i {
   color: #8e24aa !important; }
 
-.purple.darken-2 {
+.purple.darken-2, header .date-range .dropdown-content .switch label .darken-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-2.lever {
   background-color: #7b1fa2 !important; }
 
 .purple-text.text-darken-2, .filter .filter-search-area .chip i.text-darken-2 {
   color: #7b1fa2 !important; }
 
-.purple.darken-3, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
+.purple.darken-3, header .date-range .dropdown-content .switch label .darken-3.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper .lever.caret, .results .navbar .select-wrapper header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-3.lever, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
   background-color: #6a1b9a !important; }
 
 .purple-text.text-darken-3, .filter .filter-search-area .chip i.text-darken-3 {
   color: #6a1b9a !important; }
 
-.purple.darken-4 {
+.purple.darken-4, header .date-range .dropdown-content .switch label .darken-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-4.lever {
   background-color: #4a148c !important; }
 
 .purple-text.text-darken-4, .nav-horiz > li > a.purple-text:hover, .filter .filter-search-area .chip i.text-darken-4 {
   color: #4a148c !important; }
 
-.purple.accent-1 {
+.purple.accent-1, header .date-range .dropdown-content .switch label .accent-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-1.lever {
   background-color: #ea80fc !important; }
 
 .purple-text.text-accent-1, .filter .filter-search-area .chip i.text-accent-1 {
   color: #ea80fc !important; }
 
-.purple.accent-2 {
+.purple.accent-2, header .date-range .dropdown-content .switch label .accent-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-2.lever {
   background-color: #e040fb !important; }
 
 .purple-text.text-accent-2, .filter .filter-search-area .chip i.text-accent-2 {
   color: #e040fb !important; }
 
-.purple.accent-3 {
+.purple.accent-3, header .date-range .dropdown-content .switch label .accent-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-3.lever {
   background-color: #d500f9 !important; }
 
 .purple-text.text-accent-3, .filter .filter-search-area .chip i.text-accent-3 {
   color: #d500f9 !important; }
 
-.purple.accent-4, .purple.intro {
+.purple.accent-4, header .date-range .dropdown-content .switch label .accent-4.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .purple.intro {
   background-color: #aa00ff !important; }
 
 .purple-text.text-accent-4, .query-builder .search-container .search-area .purple-text.queries-nav-collapse:hover, .query-builder .search-container .search-area .filter .filter-search-area .chip i.queries-nav-collapse:hover, .filter .filter-search-area .chip .query-builder .search-container .search-area i.queries-nav-collapse:hover, .query-builder .search-container .search-area input.purple-text[type=text], .query-builder .purple-text.clear-search-area:hover, .query-builder .filter .filter-search-area .chip i.clear-search-area:hover, .filter .filter-search-area .chip .query-builder i.clear-search-area:hover, .query-builder .purple-text.clear-filters:hover, .query-builder .filter .filter-search-area .chip i.clear-filters:hover, .filter .filter-search-area .chip .query-builder i.clear-filters:hover, .filter .filter-search-area .chip i.text-accent-4 {
@@ -1956,7 +1956,7 @@
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important; }
 
-.deep-purple.lighten-1 {
+.deep-purple.lighten-1, header .date-range .dropdown-content .switch label .deep-purple.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-purple.lever {
   background-color: #7e57c2 !important; }
 
 .deep-purple-text.text-lighten-1 {
@@ -2040,7 +2040,7 @@
 .indigo-text.text-lighten-2 {
   color: #7986cb !important; }
 
-.indigo.lighten-1 {
+.indigo.lighten-1, header .date-range .dropdown-content .switch label .indigo.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .indigo.lever {
   background-color: #5c6bc0 !important; }
 
 .indigo-text.text-lighten-1 {
@@ -2124,7 +2124,7 @@
 .blue-text.text-lighten-2, .side-nav.fixed .main-nav > li:hover > a.text-lighten-2, .side-nav.fixed .main-nav > li.active > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-2.caret {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .side-nav.fixed .main-nav > li.lighten-1.active::before {
+.blue.lighten-1, header .date-range .dropdown-content .switch label .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > li.lever.active::before, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed .main-nav > li.lighten-1.active::before {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .side-nav.fixed .main-nav > li:hover > a.text-lighten-1, .side-nav.fixed .main-nav > li.active > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-1.caret {
@@ -2208,7 +2208,7 @@
 .light-blue-text.text-lighten-2, .query-builder .search-container .search-area .text-lighten-2.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-2[type=text] {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, .lighten-1.intro {
+.light-blue.lighten-1, header .date-range .dropdown-content .switch label .light-blue.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-blue.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .lighten-1.intro {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1, .query-builder .search-container .search-area .text-lighten-1.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-1[type=text] {
@@ -2292,7 +2292,7 @@
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1 {
+.cyan.lighten-1, header .date-range .dropdown-content .switch label .cyan.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .cyan.lever {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
@@ -2376,7 +2376,7 @@
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1 {
+.teal.lighten-1, header .date-range .dropdown-content .switch label .teal.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .teal.lever {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
@@ -2460,7 +2460,7 @@
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1 {
+.green.lighten-1, header .date-range .dropdown-content .switch label .green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .green.lever {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
@@ -2544,7 +2544,7 @@
 .light-green-text.text-lighten-2 {
   color: #aed581 !important; }
 
-.light-green.lighten-1 {
+.light-green.lighten-1, header .date-range .dropdown-content .switch label .light-green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-green.lever {
   background-color: #9ccc65 !important; }
 
 .light-green-text.text-lighten-1 {
@@ -2628,7 +2628,7 @@
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1 {
+.lime.lighten-1, header .date-range .dropdown-content .switch label .lime.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lime.lever {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
@@ -2712,7 +2712,7 @@
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1 {
+.yellow.lighten-1, header .date-range .dropdown-content .switch label .yellow.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .yellow.lever {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
@@ -2796,7 +2796,7 @@
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1 {
+.amber.lighten-1, header .date-range .dropdown-content .switch label .amber.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .amber.lever {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
@@ -2880,7 +2880,7 @@
 .orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
-.orange.lighten-1 {
+.orange.lighten-1, header .date-range .dropdown-content .switch label .orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .orange.lever {
   background-color: #ffa726 !important; }
 
 .orange-text.text-lighten-1 {
@@ -2964,7 +2964,7 @@
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1 {
+.deep-orange.lighten-1, header .date-range .dropdown-content .switch label .deep-orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-orange.lever {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
@@ -3048,7 +3048,7 @@
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1 {
+.brown.lighten-1, header .date-range .dropdown-content .switch label .brown.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .brown.lever {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
@@ -3108,7 +3108,7 @@
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1 {
+.blue-grey.lighten-1, header .date-range .dropdown-content .switch label .blue-grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue-grey.lever {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
@@ -3168,7 +3168,7 @@
 .grey-text.text-lighten-2, .nav-horiz > li > a.text-lighten-2:hover, .tabs > .tab > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper, .results .navbar .select-wrapper .text-lighten-2.caret {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1 {
+.grey.lighten-1, header .date-range .dropdown-content .switch label .grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .grey.lever {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .nav-horiz > li > a.text-lighten-1:hover, .tabs > .tab > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper, .results .navbar .select-wrapper .text-lighten-1.caret {
@@ -3210,7 +3210,7 @@
 .shades-text.text-black {
   color: #000000 !important; }
 
-.shades.white, .tabs.transparent .shades.indicator {
+.shades.white, .tabs.transparent .shades.indicator, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn-large {
   background-color: #FFFFFF !important; }
 
 .shades-text.text-white {
@@ -3228,10 +3228,10 @@
 .black-text {
   color: #000000 !important; }
 
-.white, .tabs.transparent .indicator {
+.white, .tabs.transparent .indicator, header .date-range .dropdown-content .presets-range .date-slider .slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-large {
   background-color: #FFFFFF !important; }
 
-.white-text, .filter .filter-search-area .chip {
+.white-text, header .date-range .dropdown-content .presets-range .date-slider .slider-title.active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-flat, .filter .filter-search-area .chip {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -10106,7 +10106,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .materialize-red-text.text-lighten-2 {
   color: #ee6e73 !important; }
 
-.materialize-red.lighten-1 {
+.materialize-red.lighten-1, header .date-range .dropdown-content .switch label .materialize-red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .materialize-red.lever {
   background-color: #ea454b !important; }
 
 .materialize-red-text.text-lighten-1 {
@@ -10166,7 +10166,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .red-text.text-lighten-2, .query-builder .search-container .search-area .chip:hover i.text-lighten-2:hover, .query-builder .text-lighten-2.clear-search-area:hover, .query-builder .text-lighten-2.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-2:hover {
   color: #E57373 !important; }
 
-.red.lighten-1 {
+.red.lighten-1, header .date-range .dropdown-content .switch label .red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .red.lever {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1, .query-builder .search-container .search-area .chip:hover i.text-lighten-1:hover, .query-builder .text-lighten-1.clear-search-area:hover, .query-builder .text-lighten-1.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-1:hover {
@@ -10250,7 +10250,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1 {
+.pink.lighten-1, header .date-range .dropdown-content .switch label .pink.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .pink.lever {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
@@ -10310,85 +10310,85 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .pink-text.text-accent-4, .query-builder .search-container .search-area .pink-text.queries-nav-collapse:hover, .query-builder .search-container .search-area input.pink-text[type=text], .query-builder .pink-text.clear-search-area:hover, .query-builder .pink-text.clear-filters:hover {
   color: #c51162 !important; }
 
-.purple.lighten-5 {
+.purple.lighten-5, header .date-range .dropdown-content .switch label .lighten-5.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-5.lever {
   background-color: #f3e5f5 !important; }
 
 .purple-text.text-lighten-5, .filter .filter-search-area .chip i.text-lighten-5 {
   color: #f3e5f5 !important; }
 
-.purple.lighten-4, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
+.purple.lighten-4, header .date-range .dropdown-content .switch label .lighten-4.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper:hover, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper:hover, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper:hover .lever.caret, .results .navbar .select-wrapper:hover header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-4.lever, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
   background-color: #e1bee7 !important; }
 
 .purple-text.text-lighten-4, .filter .filter-search-area .chip i.text-lighten-4 {
   color: #e1bee7 !important; }
 
-.purple.lighten-3 {
+.purple.lighten-3, header .date-range .dropdown-content .switch label .lighten-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-3.lever {
   background-color: #ce93d8 !important; }
 
 .purple-text.text-lighten-3, .filter .filter-search-area .chip i.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2 {
+.purple.lighten-2, header .date-range .dropdown-content .switch label .lighten-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-2.lever {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2, .filter .filter-search-area .chip i.text-lighten-2 {
   color: #ba68c8 !important; }
 
-.purple.lighten-1 {
+.purple.lighten-1, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #ab47bc !important; }
 
 .purple-text.text-lighten-1, .filter .filter-search-area .chip i.text-lighten-1 {
   color: #ab47bc !important; }
 
-.purple {
+.purple, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #9c27b0 !important; }
 
 .purple-text, .filter .filter-search-area .chip i {
   color: #9c27b0 !important; }
 
-.purple.darken-1 {
+.purple.darken-1, header .date-range .dropdown-content .switch label .darken-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-1.lever {
   background-color: #8e24aa !important; }
 
 .purple-text.text-darken-1, .tabs > .tab > a.purple-text, .filter .filter-search-area .chip i {
   color: #8e24aa !important; }
 
-.purple.darken-2 {
+.purple.darken-2, header .date-range .dropdown-content .switch label .darken-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-2.lever {
   background-color: #7b1fa2 !important; }
 
 .purple-text.text-darken-2, .filter .filter-search-area .chip i.text-darken-2 {
   color: #7b1fa2 !important; }
 
-.purple.darken-3, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
+.purple.darken-3, header .date-range .dropdown-content .switch label .darken-3.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper .lever.caret, .results .navbar .select-wrapper header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-3.lever, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
   background-color: #6a1b9a !important; }
 
 .purple-text.text-darken-3, .filter .filter-search-area .chip i.text-darken-3 {
   color: #6a1b9a !important; }
 
-.purple.darken-4 {
+.purple.darken-4, header .date-range .dropdown-content .switch label .darken-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-4.lever {
   background-color: #4a148c !important; }
 
 .purple-text.text-darken-4, .nav-horiz > li > a.purple-text:hover, .filter .filter-search-area .chip i.text-darken-4 {
   color: #4a148c !important; }
 
-.purple.accent-1 {
+.purple.accent-1, header .date-range .dropdown-content .switch label .accent-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-1.lever {
   background-color: #ea80fc !important; }
 
 .purple-text.text-accent-1, .filter .filter-search-area .chip i.text-accent-1 {
   color: #ea80fc !important; }
 
-.purple.accent-2 {
+.purple.accent-2, header .date-range .dropdown-content .switch label .accent-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-2.lever {
   background-color: #e040fb !important; }
 
 .purple-text.text-accent-2, .filter .filter-search-area .chip i.text-accent-2 {
   color: #e040fb !important; }
 
-.purple.accent-3 {
+.purple.accent-3, header .date-range .dropdown-content .switch label .accent-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-3.lever {
   background-color: #d500f9 !important; }
 
 .purple-text.text-accent-3, .filter .filter-search-area .chip i.text-accent-3 {
   color: #d500f9 !important; }
 
-.purple.accent-4, .purple.intro {
+.purple.accent-4, header .date-range .dropdown-content .switch label .accent-4.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .purple.intro {
   background-color: #aa00ff !important; }
 
 .purple-text.text-accent-4, .query-builder .search-container .search-area .purple-text.queries-nav-collapse:hover, .query-builder .search-container .search-area .filter .filter-search-area .chip i.queries-nav-collapse:hover, .filter .filter-search-area .chip .query-builder .search-container .search-area i.queries-nav-collapse:hover, .query-builder .search-container .search-area input.purple-text[type=text], .query-builder .purple-text.clear-search-area:hover, .query-builder .filter .filter-search-area .chip i.clear-search-area:hover, .filter .filter-search-area .chip .query-builder i.clear-search-area:hover, .query-builder .purple-text.clear-filters:hover, .query-builder .filter .filter-search-area .chip i.clear-filters:hover, .filter .filter-search-area .chip .query-builder i.clear-filters:hover, .filter .filter-search-area .chip i.text-accent-4 {
@@ -10418,7 +10418,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important; }
 
-.deep-purple.lighten-1 {
+.deep-purple.lighten-1, header .date-range .dropdown-content .switch label .deep-purple.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-purple.lever {
   background-color: #7e57c2 !important; }
 
 .deep-purple-text.text-lighten-1 {
@@ -10502,7 +10502,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .indigo-text.text-lighten-2 {
   color: #7986cb !important; }
 
-.indigo.lighten-1 {
+.indigo.lighten-1, header .date-range .dropdown-content .switch label .indigo.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .indigo.lever {
   background-color: #5c6bc0 !important; }
 
 .indigo-text.text-lighten-1 {
@@ -10586,7 +10586,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .blue-text.text-lighten-2, .side-nav.fixed .main-nav > li:hover > a.text-lighten-2, .side-nav.fixed .main-nav > li.active > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-2.caret {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .side-nav.fixed .main-nav > li.lighten-1.active::before {
+.blue.lighten-1, header .date-range .dropdown-content .switch label .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > li.lever.active::before, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed .main-nav > li.lighten-1.active::before {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .side-nav.fixed .main-nav > li:hover > a.text-lighten-1, .side-nav.fixed .main-nav > li.active > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-1.caret {
@@ -10670,7 +10670,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .light-blue-text.text-lighten-2, .query-builder .search-container .search-area .text-lighten-2.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-2[type=text] {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, .lighten-1.intro {
+.light-blue.lighten-1, header .date-range .dropdown-content .switch label .light-blue.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-blue.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .lighten-1.intro {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1, .query-builder .search-container .search-area .text-lighten-1.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-1[type=text] {
@@ -10754,7 +10754,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1 {
+.cyan.lighten-1, header .date-range .dropdown-content .switch label .cyan.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .cyan.lever {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
@@ -10838,7 +10838,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1 {
+.teal.lighten-1, header .date-range .dropdown-content .switch label .teal.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .teal.lever {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
@@ -10922,7 +10922,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1 {
+.green.lighten-1, header .date-range .dropdown-content .switch label .green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .green.lever {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
@@ -11006,7 +11006,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .light-green-text.text-lighten-2 {
   color: #aed581 !important; }
 
-.light-green.lighten-1 {
+.light-green.lighten-1, header .date-range .dropdown-content .switch label .light-green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-green.lever {
   background-color: #9ccc65 !important; }
 
 .light-green-text.text-lighten-1 {
@@ -11090,7 +11090,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1 {
+.lime.lighten-1, header .date-range .dropdown-content .switch label .lime.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lime.lever {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
@@ -11174,7 +11174,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1 {
+.yellow.lighten-1, header .date-range .dropdown-content .switch label .yellow.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .yellow.lever {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
@@ -11258,7 +11258,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1 {
+.amber.lighten-1, header .date-range .dropdown-content .switch label .amber.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .amber.lever {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
@@ -11342,7 +11342,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
-.orange.lighten-1 {
+.orange.lighten-1, header .date-range .dropdown-content .switch label .orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .orange.lever {
   background-color: #ffa726 !important; }
 
 .orange-text.text-lighten-1 {
@@ -11426,7 +11426,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1 {
+.deep-orange.lighten-1, header .date-range .dropdown-content .switch label .deep-orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-orange.lever {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
@@ -11510,7 +11510,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1 {
+.brown.lighten-1, header .date-range .dropdown-content .switch label .brown.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .brown.lever {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
@@ -11570,7 +11570,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1 {
+.blue-grey.lighten-1, header .date-range .dropdown-content .switch label .blue-grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue-grey.lever {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
@@ -11630,7 +11630,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .grey-text.text-lighten-2, .nav-horiz > li > a.text-lighten-2:hover, .tabs > .tab > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper, .results .navbar .select-wrapper .text-lighten-2.caret {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1 {
+.grey.lighten-1, header .date-range .dropdown-content .switch label .grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .grey.lever {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .nav-horiz > li > a.text-lighten-1:hover, .tabs > .tab > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper, .results .navbar .select-wrapper .text-lighten-1.caret {
@@ -11672,7 +11672,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .shades-text.text-black {
   color: #000000 !important; }
 
-.shades.white, .tabs.transparent .shades.indicator {
+.shades.white, .tabs.transparent .shades.indicator, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn-large {
   background-color: #FFFFFF !important; }
 
 .shades-text.text-white {
@@ -11690,10 +11690,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .black-text {
   color: #000000 !important; }
 
-.white, .tabs.transparent .indicator {
+.white, .tabs.transparent .indicator, header .date-range .dropdown-content .presets-range .date-slider .slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-large {
   background-color: #FFFFFF !important; }
 
-.white-text, .filter .filter-search-area .chip {
+.white-text, header .date-range .dropdown-content .presets-range .date-slider .slider-title.active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-flat, .filter .filter-search-area .chip {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -11726,7 +11726,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .materialize-red-text.text-lighten-2 {
   color: #ee6e73 !important; }
 
-.materialize-red.lighten-1 {
+.materialize-red.lighten-1, header .date-range .dropdown-content .switch label .materialize-red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .materialize-red.lever {
   background-color: #ea454b !important; }
 
 .materialize-red-text.text-lighten-1 {
@@ -11786,7 +11786,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .red-text.text-lighten-2, .query-builder .search-container .search-area .chip:hover i.text-lighten-2:hover, .query-builder .text-lighten-2.clear-search-area:hover, .query-builder .text-lighten-2.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-2:hover {
   color: #E57373 !important; }
 
-.red.lighten-1 {
+.red.lighten-1, header .date-range .dropdown-content .switch label .red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .red.lever {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1, .query-builder .search-container .search-area .chip:hover i.text-lighten-1:hover, .query-builder .text-lighten-1.clear-search-area:hover, .query-builder .text-lighten-1.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-1:hover {
@@ -11870,7 +11870,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1 {
+.pink.lighten-1, header .date-range .dropdown-content .switch label .pink.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .pink.lever {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
@@ -11930,85 +11930,85 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .pink-text.text-accent-4, .query-builder .search-container .search-area .pink-text.queries-nav-collapse:hover, .query-builder .search-container .search-area input.pink-text[type=text], .query-builder .pink-text.clear-search-area:hover, .query-builder .pink-text.clear-filters:hover {
   color: #c51162 !important; }
 
-.purple.lighten-5 {
+.purple.lighten-5, header .date-range .dropdown-content .switch label .lighten-5.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-5.lever {
   background-color: #f3e5f5 !important; }
 
 .purple-text.text-lighten-5, .filter .filter-search-area .chip i.text-lighten-5 {
   color: #f3e5f5 !important; }
 
-.purple.lighten-4, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
+.purple.lighten-4, header .date-range .dropdown-content .switch label .lighten-4.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper:hover, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper:hover, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper:hover .lever.caret, .results .navbar .select-wrapper:hover header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-4.lever, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
   background-color: #e1bee7 !important; }
 
 .purple-text.text-lighten-4, .filter .filter-search-area .chip i.text-lighten-4 {
   color: #e1bee7 !important; }
 
-.purple.lighten-3 {
+.purple.lighten-3, header .date-range .dropdown-content .switch label .lighten-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-3.lever {
   background-color: #ce93d8 !important; }
 
 .purple-text.text-lighten-3, .filter .filter-search-area .chip i.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2 {
+.purple.lighten-2, header .date-range .dropdown-content .switch label .lighten-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-2.lever {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2, .filter .filter-search-area .chip i.text-lighten-2 {
   color: #ba68c8 !important; }
 
-.purple.lighten-1 {
+.purple.lighten-1, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #ab47bc !important; }
 
 .purple-text.text-lighten-1, .filter .filter-search-area .chip i.text-lighten-1 {
   color: #ab47bc !important; }
 
-.purple {
+.purple, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #9c27b0 !important; }
 
 .purple-text, .filter .filter-search-area .chip i {
   color: #9c27b0 !important; }
 
-.purple.darken-1 {
+.purple.darken-1, header .date-range .dropdown-content .switch label .darken-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-1.lever {
   background-color: #8e24aa !important; }
 
 .purple-text.text-darken-1, .tabs > .tab > a.purple-text, .filter .filter-search-area .chip i {
   color: #8e24aa !important; }
 
-.purple.darken-2 {
+.purple.darken-2, header .date-range .dropdown-content .switch label .darken-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-2.lever {
   background-color: #7b1fa2 !important; }
 
 .purple-text.text-darken-2, .filter .filter-search-area .chip i.text-darken-2 {
   color: #7b1fa2 !important; }
 
-.purple.darken-3, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
+.purple.darken-3, header .date-range .dropdown-content .switch label .darken-3.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper .lever.caret, .results .navbar .select-wrapper header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-3.lever, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
   background-color: #6a1b9a !important; }
 
 .purple-text.text-darken-3, .filter .filter-search-area .chip i.text-darken-3 {
   color: #6a1b9a !important; }
 
-.purple.darken-4 {
+.purple.darken-4, header .date-range .dropdown-content .switch label .darken-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-4.lever {
   background-color: #4a148c !important; }
 
 .purple-text.text-darken-4, .nav-horiz > li > a.purple-text:hover, .filter .filter-search-area .chip i.text-darken-4 {
   color: #4a148c !important; }
 
-.purple.accent-1 {
+.purple.accent-1, header .date-range .dropdown-content .switch label .accent-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-1.lever {
   background-color: #ea80fc !important; }
 
 .purple-text.text-accent-1, .filter .filter-search-area .chip i.text-accent-1 {
   color: #ea80fc !important; }
 
-.purple.accent-2 {
+.purple.accent-2, header .date-range .dropdown-content .switch label .accent-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-2.lever {
   background-color: #e040fb !important; }
 
 .purple-text.text-accent-2, .filter .filter-search-area .chip i.text-accent-2 {
   color: #e040fb !important; }
 
-.purple.accent-3 {
+.purple.accent-3, header .date-range .dropdown-content .switch label .accent-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-3.lever {
   background-color: #d500f9 !important; }
 
 .purple-text.text-accent-3, .filter .filter-search-area .chip i.text-accent-3 {
   color: #d500f9 !important; }
 
-.purple.accent-4, .purple.intro {
+.purple.accent-4, header .date-range .dropdown-content .switch label .accent-4.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .purple.intro {
   background-color: #aa00ff !important; }
 
 .purple-text.text-accent-4, .query-builder .search-container .search-area .purple-text.queries-nav-collapse:hover, .query-builder .search-container .search-area .filter .filter-search-area .chip i.queries-nav-collapse:hover, .filter .filter-search-area .chip .query-builder .search-container .search-area i.queries-nav-collapse:hover, .query-builder .search-container .search-area input.purple-text[type=text], .query-builder .purple-text.clear-search-area:hover, .query-builder .filter .filter-search-area .chip i.clear-search-area:hover, .filter .filter-search-area .chip .query-builder i.clear-search-area:hover, .query-builder .purple-text.clear-filters:hover, .query-builder .filter .filter-search-area .chip i.clear-filters:hover, .filter .filter-search-area .chip .query-builder i.clear-filters:hover, .filter .filter-search-area .chip i.text-accent-4 {
@@ -12038,7 +12038,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important; }
 
-.deep-purple.lighten-1 {
+.deep-purple.lighten-1, header .date-range .dropdown-content .switch label .deep-purple.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-purple.lever {
   background-color: #7e57c2 !important; }
 
 .deep-purple-text.text-lighten-1 {
@@ -12122,7 +12122,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .indigo-text.text-lighten-2 {
   color: #7986cb !important; }
 
-.indigo.lighten-1 {
+.indigo.lighten-1, header .date-range .dropdown-content .switch label .indigo.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .indigo.lever {
   background-color: #5c6bc0 !important; }
 
 .indigo-text.text-lighten-1 {
@@ -12206,7 +12206,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .blue-text.text-lighten-2, .side-nav.fixed .main-nav > li:hover > a.text-lighten-2, .side-nav.fixed .main-nav > li.active > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-2.caret {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .side-nav.fixed .main-nav > li.lighten-1.active::before {
+.blue.lighten-1, header .date-range .dropdown-content .switch label .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > li.lever.active::before, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed .main-nav > li.lighten-1.active::before {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .side-nav.fixed .main-nav > li:hover > a.text-lighten-1, .side-nav.fixed .main-nav > li.active > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-1.caret {
@@ -12290,7 +12290,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .light-blue-text.text-lighten-2, .query-builder .search-container .search-area .text-lighten-2.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-2[type=text] {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, .lighten-1.intro {
+.light-blue.lighten-1, header .date-range .dropdown-content .switch label .light-blue.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-blue.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .lighten-1.intro {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1, .query-builder .search-container .search-area .text-lighten-1.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-1[type=text] {
@@ -12374,7 +12374,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1 {
+.cyan.lighten-1, header .date-range .dropdown-content .switch label .cyan.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .cyan.lever {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
@@ -12458,7 +12458,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1 {
+.teal.lighten-1, header .date-range .dropdown-content .switch label .teal.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .teal.lever {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
@@ -12542,7 +12542,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1 {
+.green.lighten-1, header .date-range .dropdown-content .switch label .green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .green.lever {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
@@ -12626,7 +12626,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .light-green-text.text-lighten-2 {
   color: #aed581 !important; }
 
-.light-green.lighten-1 {
+.light-green.lighten-1, header .date-range .dropdown-content .switch label .light-green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-green.lever {
   background-color: #9ccc65 !important; }
 
 .light-green-text.text-lighten-1 {
@@ -12710,7 +12710,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1 {
+.lime.lighten-1, header .date-range .dropdown-content .switch label .lime.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lime.lever {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
@@ -12794,7 +12794,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1 {
+.yellow.lighten-1, header .date-range .dropdown-content .switch label .yellow.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .yellow.lever {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
@@ -12878,7 +12878,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1 {
+.amber.lighten-1, header .date-range .dropdown-content .switch label .amber.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .amber.lever {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
@@ -12962,7 +12962,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
-.orange.lighten-1 {
+.orange.lighten-1, header .date-range .dropdown-content .switch label .orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .orange.lever {
   background-color: #ffa726 !important; }
 
 .orange-text.text-lighten-1 {
@@ -13046,7 +13046,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1 {
+.deep-orange.lighten-1, header .date-range .dropdown-content .switch label .deep-orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-orange.lever {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
@@ -13130,7 +13130,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1 {
+.brown.lighten-1, header .date-range .dropdown-content .switch label .brown.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .brown.lever {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
@@ -13190,7 +13190,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1 {
+.blue-grey.lighten-1, header .date-range .dropdown-content .switch label .blue-grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue-grey.lever {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
@@ -13250,7 +13250,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .grey-text.text-lighten-2, .nav-horiz > li > a.text-lighten-2:hover, .tabs > .tab > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper, .results .navbar .select-wrapper .text-lighten-2.caret {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1 {
+.grey.lighten-1, header .date-range .dropdown-content .switch label .grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .grey.lever {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .nav-horiz > li > a.text-lighten-1:hover, .tabs > .tab > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper, .results .navbar .select-wrapper .text-lighten-1.caret {
@@ -13292,7 +13292,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .shades-text.text-black {
   color: #000000 !important; }
 
-.shades.white, .tabs.transparent .shades.indicator {
+.shades.white, .tabs.transparent .shades.indicator, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn-large {
   background-color: #FFFFFF !important; }
 
 .shades-text.text-white {
@@ -13310,10 +13310,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .black-text {
   color: #000000 !important; }
 
-.white, .tabs.transparent .indicator {
+.white, .tabs.transparent .indicator, header .date-range .dropdown-content .presets-range .date-slider .slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-large {
   background-color: #FFFFFF !important; }
 
-.white-text, .filter .filter-search-area .chip {
+.white-text, header .date-range .dropdown-content .presets-range .date-slider .slider-title.active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-flat, .filter .filter-search-area .chip {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -13324,20 +13324,20 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 /*** Colors ***/
 /* Progress Bar */
-.purple input {
+.purple input, header .date-range .dropdown-content .switch label .lever input, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever input {
   color: #FFF; }
-.purple ::-webkit-input-placeholder {
+.purple ::-webkit-input-placeholder, header .date-range .dropdown-content .switch label .lever ::-webkit-input-placeholder, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.35);
   font-weight: 300; }
-.purple :-moz-placeholder {
+.purple :-moz-placeholder, header .date-range .dropdown-content .switch label .lever :-moz-placeholder, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever :-moz-placeholder {
   /* Firefox 18- */
   color: rgba(255, 255, 255, 0.35);
   font-weight: 300; }
-.purple ::-moz-placeholder {
+.purple ::-moz-placeholder, header .date-range .dropdown-content .switch label .lever ::-moz-placeholder, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever ::-moz-placeholder {
   /* Firefox 19+ */
   color: rgba(255, 255, 255, 0.35);
   font-weight: 300; }
-.purple :-ms-input-placeholder {
+.purple :-ms-input-placeholder, header .date-range .dropdown-content .switch label .lever :-ms-input-placeholder, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever :-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.35);
   font-weight: 300; }
 
@@ -13382,7 +13382,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .clearfix:after, .list-unstyled:after, .side-nav.fixed .main-nav:after, .nav-horiz:after, .action-btn:after {
   clear: both; }
 
-.modal.full, header nav.top-nav, header .user-menu > li > a, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container {
+.modal.full, header nav.top-nav, header .user-menu > li > a, header .date-range .dropdown-content .presets-range .date-slider .slider-segment, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container {
   box-shadow: none !important; }
 
 .query-builder .search-container .search-area .chip:hover, .results .article-list article:hover, .filter .filter-search-area .chip:hover {
@@ -13415,7 +13415,7 @@ main .container {
 .materialize-red-text.text-lighten-2 {
   color: #ee6e73 !important; }
 
-.materialize-red.lighten-1 {
+.materialize-red.lighten-1, header .date-range .dropdown-content .switch label .materialize-red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .materialize-red.lever {
   background-color: #ea454b !important; }
 
 .materialize-red-text.text-lighten-1 {
@@ -13475,7 +13475,7 @@ main .container {
 .red-text.text-lighten-2, .query-builder .search-container .search-area .chip:hover i.text-lighten-2:hover, .query-builder .text-lighten-2.clear-search-area:hover, .query-builder .text-lighten-2.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-2:hover {
   color: #E57373 !important; }
 
-.red.lighten-1 {
+.red.lighten-1, header .date-range .dropdown-content .switch label .red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .red.lever {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1, .query-builder .search-container .search-area .chip:hover i.text-lighten-1:hover, .query-builder .text-lighten-1.clear-search-area:hover, .query-builder .text-lighten-1.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-1:hover {
@@ -13559,7 +13559,7 @@ main .container {
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1 {
+.pink.lighten-1, header .date-range .dropdown-content .switch label .pink.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .pink.lever {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
@@ -13619,85 +13619,85 @@ main .container {
 .pink-text.text-accent-4, .query-builder .search-container .search-area .pink-text.queries-nav-collapse:hover, .query-builder .search-container .search-area input.pink-text[type=text], .query-builder .pink-text.clear-search-area:hover, .query-builder .pink-text.clear-filters:hover {
   color: #c51162 !important; }
 
-.purple.lighten-5 {
+.purple.lighten-5, header .date-range .dropdown-content .switch label .lighten-5.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-5.lever {
   background-color: #f3e5f5 !important; }
 
 .purple-text.text-lighten-5, .filter .filter-search-area .chip i.text-lighten-5 {
   color: #f3e5f5 !important; }
 
-.purple.lighten-4, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
+.purple.lighten-4, header .date-range .dropdown-content .switch label .lighten-4.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper:hover, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper:hover, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper:hover .lever.caret, .results .navbar .select-wrapper:hover header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-4.lever, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
   background-color: #e1bee7 !important; }
 
 .purple-text.text-lighten-4, .filter .filter-search-area .chip i.text-lighten-4 {
   color: #e1bee7 !important; }
 
-.purple.lighten-3 {
+.purple.lighten-3, header .date-range .dropdown-content .switch label .lighten-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-3.lever {
   background-color: #ce93d8 !important; }
 
 .purple-text.text-lighten-3, .filter .filter-search-area .chip i.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2 {
+.purple.lighten-2, header .date-range .dropdown-content .switch label .lighten-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-2.lever {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2, .filter .filter-search-area .chip i.text-lighten-2 {
   color: #ba68c8 !important; }
 
-.purple.lighten-1 {
+.purple.lighten-1, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #ab47bc !important; }
 
 .purple-text.text-lighten-1, .filter .filter-search-area .chip i.text-lighten-1 {
   color: #ab47bc !important; }
 
-.purple {
+.purple, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #9c27b0 !important; }
 
 .purple-text, .filter .filter-search-area .chip i {
   color: #9c27b0 !important; }
 
-.purple.darken-1 {
+.purple.darken-1, header .date-range .dropdown-content .switch label .darken-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-1.lever {
   background-color: #8e24aa !important; }
 
 .purple-text.text-darken-1, .tabs > .tab > a.purple-text, .filter .filter-search-area .chip i {
   color: #8e24aa !important; }
 
-.purple.darken-2 {
+.purple.darken-2, header .date-range .dropdown-content .switch label .darken-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-2.lever {
   background-color: #7b1fa2 !important; }
 
 .purple-text.text-darken-2, .filter .filter-search-area .chip i.text-darken-2 {
   color: #7b1fa2 !important; }
 
-.purple.darken-3, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
+.purple.darken-3, header .date-range .dropdown-content .switch label .darken-3.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper .lever.caret, .results .navbar .select-wrapper header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-3.lever, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
   background-color: #6a1b9a !important; }
 
 .purple-text.text-darken-3, .filter .filter-search-area .chip i.text-darken-3 {
   color: #6a1b9a !important; }
 
-.purple.darken-4 {
+.purple.darken-4, header .date-range .dropdown-content .switch label .darken-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-4.lever {
   background-color: #4a148c !important; }
 
 .purple-text.text-darken-4, .nav-horiz > li > a.purple-text:hover, .filter .filter-search-area .chip i.text-darken-4 {
   color: #4a148c !important; }
 
-.purple.accent-1 {
+.purple.accent-1, header .date-range .dropdown-content .switch label .accent-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-1.lever {
   background-color: #ea80fc !important; }
 
 .purple-text.text-accent-1, .filter .filter-search-area .chip i.text-accent-1 {
   color: #ea80fc !important; }
 
-.purple.accent-2 {
+.purple.accent-2, header .date-range .dropdown-content .switch label .accent-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-2.lever {
   background-color: #e040fb !important; }
 
 .purple-text.text-accent-2, .filter .filter-search-area .chip i.text-accent-2 {
   color: #e040fb !important; }
 
-.purple.accent-3 {
+.purple.accent-3, header .date-range .dropdown-content .switch label .accent-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-3.lever {
   background-color: #d500f9 !important; }
 
 .purple-text.text-accent-3, .filter .filter-search-area .chip i.text-accent-3 {
   color: #d500f9 !important; }
 
-.purple.accent-4, .purple.intro {
+.purple.accent-4, header .date-range .dropdown-content .switch label .accent-4.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .purple.intro {
   background-color: #aa00ff !important; }
 
 .purple-text.text-accent-4, .query-builder .search-container .search-area .purple-text.queries-nav-collapse:hover, .query-builder .search-container .search-area .filter .filter-search-area .chip i.queries-nav-collapse:hover, .filter .filter-search-area .chip .query-builder .search-container .search-area i.queries-nav-collapse:hover, .query-builder .search-container .search-area input.purple-text[type=text], .query-builder .purple-text.clear-search-area:hover, .query-builder .filter .filter-search-area .chip i.clear-search-area:hover, .filter .filter-search-area .chip .query-builder i.clear-search-area:hover, .query-builder .purple-text.clear-filters:hover, .query-builder .filter .filter-search-area .chip i.clear-filters:hover, .filter .filter-search-area .chip .query-builder i.clear-filters:hover, .filter .filter-search-area .chip i.text-accent-4 {
@@ -13727,7 +13727,7 @@ main .container {
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important; }
 
-.deep-purple.lighten-1 {
+.deep-purple.lighten-1, header .date-range .dropdown-content .switch label .deep-purple.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-purple.lever {
   background-color: #7e57c2 !important; }
 
 .deep-purple-text.text-lighten-1 {
@@ -13811,7 +13811,7 @@ main .container {
 .indigo-text.text-lighten-2 {
   color: #7986cb !important; }
 
-.indigo.lighten-1 {
+.indigo.lighten-1, header .date-range .dropdown-content .switch label .indigo.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .indigo.lever {
   background-color: #5c6bc0 !important; }
 
 .indigo-text.text-lighten-1 {
@@ -13895,7 +13895,7 @@ main .container {
 .blue-text.text-lighten-2, .side-nav.fixed .main-nav > li:hover > a.text-lighten-2, .side-nav.fixed .main-nav > li.active > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-2.caret {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .side-nav.fixed .main-nav > li.lighten-1.active::before {
+.blue.lighten-1, header .date-range .dropdown-content .switch label .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > li.lever.active::before, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed .main-nav > li.lighten-1.active::before {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .side-nav.fixed .main-nav > li:hover > a.text-lighten-1, .side-nav.fixed .main-nav > li.active > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-1.caret {
@@ -13979,7 +13979,7 @@ main .container {
 .light-blue-text.text-lighten-2, .query-builder .search-container .search-area .text-lighten-2.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-2[type=text] {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, .lighten-1.intro {
+.light-blue.lighten-1, header .date-range .dropdown-content .switch label .light-blue.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-blue.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .lighten-1.intro {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1, .query-builder .search-container .search-area .text-lighten-1.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-1[type=text] {
@@ -14063,7 +14063,7 @@ main .container {
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1 {
+.cyan.lighten-1, header .date-range .dropdown-content .switch label .cyan.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .cyan.lever {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
@@ -14147,7 +14147,7 @@ main .container {
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1 {
+.teal.lighten-1, header .date-range .dropdown-content .switch label .teal.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .teal.lever {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
@@ -14231,7 +14231,7 @@ main .container {
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1 {
+.green.lighten-1, header .date-range .dropdown-content .switch label .green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .green.lever {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
@@ -14315,7 +14315,7 @@ main .container {
 .light-green-text.text-lighten-2 {
   color: #aed581 !important; }
 
-.light-green.lighten-1 {
+.light-green.lighten-1, header .date-range .dropdown-content .switch label .light-green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-green.lever {
   background-color: #9ccc65 !important; }
 
 .light-green-text.text-lighten-1 {
@@ -14399,7 +14399,7 @@ main .container {
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1 {
+.lime.lighten-1, header .date-range .dropdown-content .switch label .lime.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lime.lever {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
@@ -14483,7 +14483,7 @@ main .container {
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1 {
+.yellow.lighten-1, header .date-range .dropdown-content .switch label .yellow.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .yellow.lever {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
@@ -14567,7 +14567,7 @@ main .container {
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1 {
+.amber.lighten-1, header .date-range .dropdown-content .switch label .amber.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .amber.lever {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
@@ -14651,7 +14651,7 @@ main .container {
 .orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
-.orange.lighten-1 {
+.orange.lighten-1, header .date-range .dropdown-content .switch label .orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .orange.lever {
   background-color: #ffa726 !important; }
 
 .orange-text.text-lighten-1 {
@@ -14735,7 +14735,7 @@ main .container {
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1 {
+.deep-orange.lighten-1, header .date-range .dropdown-content .switch label .deep-orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-orange.lever {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
@@ -14819,7 +14819,7 @@ main .container {
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1 {
+.brown.lighten-1, header .date-range .dropdown-content .switch label .brown.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .brown.lever {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
@@ -14879,7 +14879,7 @@ main .container {
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1 {
+.blue-grey.lighten-1, header .date-range .dropdown-content .switch label .blue-grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue-grey.lever {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
@@ -14939,7 +14939,7 @@ main .container {
 .grey-text.text-lighten-2, .nav-horiz > li > a.text-lighten-2:hover, .tabs > .tab > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper, .results .navbar .select-wrapper .text-lighten-2.caret {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1 {
+.grey.lighten-1, header .date-range .dropdown-content .switch label .grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .grey.lever {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .nav-horiz > li > a.text-lighten-1:hover, .tabs > .tab > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper, .results .navbar .select-wrapper .text-lighten-1.caret {
@@ -14981,7 +14981,7 @@ main .container {
 .shades-text.text-black {
   color: #000000 !important; }
 
-.shades.white, .tabs.transparent .shades.indicator {
+.shades.white, .tabs.transparent .shades.indicator, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn-large {
   background-color: #FFFFFF !important; }
 
 .shades-text.text-white {
@@ -14999,10 +14999,10 @@ main .container {
 .black-text {
   color: #000000 !important; }
 
-.white, .tabs.transparent .indicator {
+.white, .tabs.transparent .indicator, header .date-range .dropdown-content .presets-range .date-slider .slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-large {
   background-color: #FFFFFF !important; }
 
-.white-text, .filter .filter-search-area .chip {
+.white-text, header .date-range .dropdown-content .presets-range .date-slider .slider-title.active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-flat, .filter .filter-search-area .chip {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -15062,7 +15062,7 @@ label {
 .materialize-red-text.text-lighten-2 {
   color: #ee6e73 !important; }
 
-.materialize-red.lighten-1 {
+.materialize-red.lighten-1, header .date-range .dropdown-content .switch label .materialize-red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .materialize-red.lever {
   background-color: #ea454b !important; }
 
 .materialize-red-text.text-lighten-1 {
@@ -15122,7 +15122,7 @@ label {
 .red-text.text-lighten-2, .query-builder .search-container .search-area .chip:hover i.text-lighten-2:hover, .query-builder .text-lighten-2.clear-search-area:hover, .query-builder .text-lighten-2.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-2:hover {
   color: #E57373 !important; }
 
-.red.lighten-1 {
+.red.lighten-1, header .date-range .dropdown-content .switch label .red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .red.lever {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1, .query-builder .search-container .search-area .chip:hover i.text-lighten-1:hover, .query-builder .text-lighten-1.clear-search-area:hover, .query-builder .text-lighten-1.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-1:hover {
@@ -15206,7 +15206,7 @@ label {
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1 {
+.pink.lighten-1, header .date-range .dropdown-content .switch label .pink.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .pink.lever {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
@@ -15266,85 +15266,85 @@ label {
 .pink-text.text-accent-4, .query-builder .search-container .search-area .pink-text.queries-nav-collapse:hover, .query-builder .search-container .search-area input.pink-text[type=text], .query-builder .pink-text.clear-search-area:hover, .query-builder .pink-text.clear-filters:hover {
   color: #c51162 !important; }
 
-.purple.lighten-5 {
+.purple.lighten-5, header .date-range .dropdown-content .switch label .lighten-5.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-5.lever {
   background-color: #f3e5f5 !important; }
 
 .purple-text.text-lighten-5, .filter .filter-search-area .chip i.text-lighten-5 {
   color: #f3e5f5 !important; }
 
-.purple.lighten-4, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
+.purple.lighten-4, header .date-range .dropdown-content .switch label .lighten-4.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper:hover, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper:hover, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper:hover .lever.caret, .results .navbar .select-wrapper:hover header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-4.lever, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
   background-color: #e1bee7 !important; }
 
 .purple-text.text-lighten-4, .filter .filter-search-area .chip i.text-lighten-4 {
   color: #e1bee7 !important; }
 
-.purple.lighten-3 {
+.purple.lighten-3, header .date-range .dropdown-content .switch label .lighten-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-3.lever {
   background-color: #ce93d8 !important; }
 
 .purple-text.text-lighten-3, .filter .filter-search-area .chip i.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2 {
+.purple.lighten-2, header .date-range .dropdown-content .switch label .lighten-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-2.lever {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2, .filter .filter-search-area .chip i.text-lighten-2 {
   color: #ba68c8 !important; }
 
-.purple.lighten-1 {
+.purple.lighten-1, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #ab47bc !important; }
 
 .purple-text.text-lighten-1, .filter .filter-search-area .chip i.text-lighten-1 {
   color: #ab47bc !important; }
 
-.purple {
+.purple, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #9c27b0 !important; }
 
 .purple-text, .filter .filter-search-area .chip i {
   color: #9c27b0 !important; }
 
-.purple.darken-1 {
+.purple.darken-1, header .date-range .dropdown-content .switch label .darken-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-1.lever {
   background-color: #8e24aa !important; }
 
 .purple-text.text-darken-1, .tabs > .tab > a.purple-text, .filter .filter-search-area .chip i {
   color: #8e24aa !important; }
 
-.purple.darken-2 {
+.purple.darken-2, header .date-range .dropdown-content .switch label .darken-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-2.lever {
   background-color: #7b1fa2 !important; }
 
 .purple-text.text-darken-2, .filter .filter-search-area .chip i.text-darken-2 {
   color: #7b1fa2 !important; }
 
-.purple.darken-3, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
+.purple.darken-3, header .date-range .dropdown-content .switch label .darken-3.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper .lever.caret, .results .navbar .select-wrapper header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-3.lever, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
   background-color: #6a1b9a !important; }
 
 .purple-text.text-darken-3, .filter .filter-search-area .chip i.text-darken-3 {
   color: #6a1b9a !important; }
 
-.purple.darken-4 {
+.purple.darken-4, header .date-range .dropdown-content .switch label .darken-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-4.lever {
   background-color: #4a148c !important; }
 
 .purple-text.text-darken-4, .nav-horiz > li > a.purple-text:hover, .filter .filter-search-area .chip i.text-darken-4 {
   color: #4a148c !important; }
 
-.purple.accent-1 {
+.purple.accent-1, header .date-range .dropdown-content .switch label .accent-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-1.lever {
   background-color: #ea80fc !important; }
 
 .purple-text.text-accent-1, .filter .filter-search-area .chip i.text-accent-1 {
   color: #ea80fc !important; }
 
-.purple.accent-2 {
+.purple.accent-2, header .date-range .dropdown-content .switch label .accent-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-2.lever {
   background-color: #e040fb !important; }
 
 .purple-text.text-accent-2, .filter .filter-search-area .chip i.text-accent-2 {
   color: #e040fb !important; }
 
-.purple.accent-3 {
+.purple.accent-3, header .date-range .dropdown-content .switch label .accent-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-3.lever {
   background-color: #d500f9 !important; }
 
 .purple-text.text-accent-3, .filter .filter-search-area .chip i.text-accent-3 {
   color: #d500f9 !important; }
 
-.purple.accent-4, .purple.intro {
+.purple.accent-4, header .date-range .dropdown-content .switch label .accent-4.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .purple.intro {
   background-color: #aa00ff !important; }
 
 .purple-text.text-accent-4, .query-builder .search-container .search-area .purple-text.queries-nav-collapse:hover, .query-builder .search-container .search-area .filter .filter-search-area .chip i.queries-nav-collapse:hover, .filter .filter-search-area .chip .query-builder .search-container .search-area i.queries-nav-collapse:hover, .query-builder .search-container .search-area input.purple-text[type=text], .query-builder .purple-text.clear-search-area:hover, .query-builder .filter .filter-search-area .chip i.clear-search-area:hover, .filter .filter-search-area .chip .query-builder i.clear-search-area:hover, .query-builder .purple-text.clear-filters:hover, .query-builder .filter .filter-search-area .chip i.clear-filters:hover, .filter .filter-search-area .chip .query-builder i.clear-filters:hover, .filter .filter-search-area .chip i.text-accent-4 {
@@ -15374,7 +15374,7 @@ label {
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important; }
 
-.deep-purple.lighten-1 {
+.deep-purple.lighten-1, header .date-range .dropdown-content .switch label .deep-purple.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-purple.lever {
   background-color: #7e57c2 !important; }
 
 .deep-purple-text.text-lighten-1 {
@@ -15458,7 +15458,7 @@ label {
 .indigo-text.text-lighten-2 {
   color: #7986cb !important; }
 
-.indigo.lighten-1 {
+.indigo.lighten-1, header .date-range .dropdown-content .switch label .indigo.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .indigo.lever {
   background-color: #5c6bc0 !important; }
 
 .indigo-text.text-lighten-1 {
@@ -15542,7 +15542,7 @@ label {
 .blue-text.text-lighten-2, .side-nav.fixed .main-nav > li:hover > a.text-lighten-2, .side-nav.fixed .main-nav > li.active > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-2.caret {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .side-nav.fixed .main-nav > li.lighten-1.active::before {
+.blue.lighten-1, header .date-range .dropdown-content .switch label .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > li.lever.active::before, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed .main-nav > li.lighten-1.active::before {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .side-nav.fixed .main-nav > li:hover > a.text-lighten-1, .side-nav.fixed .main-nav > li.active > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-1.caret {
@@ -15626,7 +15626,7 @@ label {
 .light-blue-text.text-lighten-2, .query-builder .search-container .search-area .text-lighten-2.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-2[type=text] {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, .lighten-1.intro {
+.light-blue.lighten-1, header .date-range .dropdown-content .switch label .light-blue.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-blue.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .lighten-1.intro {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1, .query-builder .search-container .search-area .text-lighten-1.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-1[type=text] {
@@ -15710,7 +15710,7 @@ label {
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1 {
+.cyan.lighten-1, header .date-range .dropdown-content .switch label .cyan.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .cyan.lever {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
@@ -15794,7 +15794,7 @@ label {
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1 {
+.teal.lighten-1, header .date-range .dropdown-content .switch label .teal.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .teal.lever {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
@@ -15878,7 +15878,7 @@ label {
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1 {
+.green.lighten-1, header .date-range .dropdown-content .switch label .green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .green.lever {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
@@ -15962,7 +15962,7 @@ label {
 .light-green-text.text-lighten-2 {
   color: #aed581 !important; }
 
-.light-green.lighten-1 {
+.light-green.lighten-1, header .date-range .dropdown-content .switch label .light-green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-green.lever {
   background-color: #9ccc65 !important; }
 
 .light-green-text.text-lighten-1 {
@@ -16046,7 +16046,7 @@ label {
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1 {
+.lime.lighten-1, header .date-range .dropdown-content .switch label .lime.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lime.lever {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
@@ -16130,7 +16130,7 @@ label {
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1 {
+.yellow.lighten-1, header .date-range .dropdown-content .switch label .yellow.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .yellow.lever {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
@@ -16214,7 +16214,7 @@ label {
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1 {
+.amber.lighten-1, header .date-range .dropdown-content .switch label .amber.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .amber.lever {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
@@ -16298,7 +16298,7 @@ label {
 .orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
-.orange.lighten-1 {
+.orange.lighten-1, header .date-range .dropdown-content .switch label .orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .orange.lever {
   background-color: #ffa726 !important; }
 
 .orange-text.text-lighten-1 {
@@ -16382,7 +16382,7 @@ label {
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1 {
+.deep-orange.lighten-1, header .date-range .dropdown-content .switch label .deep-orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-orange.lever {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
@@ -16466,7 +16466,7 @@ label {
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1 {
+.brown.lighten-1, header .date-range .dropdown-content .switch label .brown.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .brown.lever {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
@@ -16526,7 +16526,7 @@ label {
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1 {
+.blue-grey.lighten-1, header .date-range .dropdown-content .switch label .blue-grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue-grey.lever {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
@@ -16586,7 +16586,7 @@ label {
 .grey-text.text-lighten-2, .nav-horiz > li > a.text-lighten-2:hover, .tabs > .tab > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper, .results .navbar .select-wrapper .text-lighten-2.caret {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1 {
+.grey.lighten-1, header .date-range .dropdown-content .switch label .grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .grey.lever {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .nav-horiz > li > a.text-lighten-1:hover, .tabs > .tab > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper, .results .navbar .select-wrapper .text-lighten-1.caret {
@@ -16628,7 +16628,7 @@ label {
 .shades-text.text-black {
   color: #000000 !important; }
 
-.shades.white, .tabs.transparent .shades.indicator {
+.shades.white, .tabs.transparent .shades.indicator, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn-large {
   background-color: #FFFFFF !important; }
 
 .shades-text.text-white {
@@ -16646,10 +16646,10 @@ label {
 .black-text {
   color: #000000 !important; }
 
-.white, .tabs.transparent .indicator {
+.white, .tabs.transparent .indicator, header .date-range .dropdown-content .presets-range .date-slider .slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-large {
   background-color: #FFFFFF !important; }
 
-.white-text, .filter .filter-search-area .chip {
+.white-text, header .date-range .dropdown-content .presets-range .date-slider .slider-title.active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-flat, .filter .filter-search-area .chip {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -16701,7 +16701,7 @@ label {
 .clearfix:after, .list-unstyled:after, .side-nav.fixed .main-nav:after, .nav-horiz:after, .action-btn:after {
   clear: both; }
 
-.modal.full, header nav.top-nav, header .user-menu > li > a, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container {
+.modal.full, header nav.top-nav, header .user-menu > li > a, header .date-range .dropdown-content .presets-range .date-slider .slider-segment, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container {
   box-shadow: none !important; }
 
 .query-builder .search-container .search-area .chip:hover, .results .article-list article:hover, .filter .filter-search-area .chip:hover {
@@ -17019,7 +17019,7 @@ hr {
 .materialize-red-text.text-lighten-2 {
   color: #ee6e73 !important; }
 
-.materialize-red.lighten-1 {
+.materialize-red.lighten-1, header .date-range .dropdown-content .switch label .materialize-red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .materialize-red.lever {
   background-color: #ea454b !important; }
 
 .materialize-red-text.text-lighten-1 {
@@ -17079,7 +17079,7 @@ hr {
 .red-text.text-lighten-2, .query-builder .search-container .search-area .chip:hover i.text-lighten-2:hover, .query-builder .text-lighten-2.clear-search-area:hover, .query-builder .text-lighten-2.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-2:hover {
   color: #E57373 !important; }
 
-.red.lighten-1 {
+.red.lighten-1, header .date-range .dropdown-content .switch label .red.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .red.lever {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1, .query-builder .search-container .search-area .chip:hover i.text-lighten-1:hover, .query-builder .text-lighten-1.clear-search-area:hover, .query-builder .text-lighten-1.clear-filters:hover, .filter .filter-search-area .chip:hover i.text-lighten-1:hover {
@@ -17163,7 +17163,7 @@ hr {
 .pink-text.text-lighten-2 {
   color: #f06292 !important; }
 
-.pink.lighten-1 {
+.pink.lighten-1, header .date-range .dropdown-content .switch label .pink.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .pink.lever {
   background-color: #ec407a !important; }
 
 .pink-text.text-lighten-1 {
@@ -17223,85 +17223,85 @@ hr {
 .pink-text.text-accent-4, .query-builder .search-container .search-area .pink-text.queries-nav-collapse:hover, .query-builder .search-container .search-area input.pink-text[type=text], .query-builder .pink-text.clear-search-area:hover, .query-builder .pink-text.clear-filters:hover {
   color: #c51162 !important; }
 
-.purple.lighten-5 {
+.purple.lighten-5, header .date-range .dropdown-content .switch label .lighten-5.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-5.lever {
   background-color: #f3e5f5 !important; }
 
 .purple-text.text-lighten-5, .filter .filter-search-area .chip i.text-lighten-5 {
   color: #f3e5f5 !important; }
 
-.purple.lighten-4, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
+.purple.lighten-4, header .date-range .dropdown-content .switch label .lighten-4.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper:hover, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper:hover, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper:hover .lever.caret, .results .navbar .select-wrapper:hover header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-4.lever, .results .navbar .purple.select-wrapper:hover, .results .navbar .select-wrapper:hover .purple.caret {
   background-color: #e1bee7 !important; }
 
 .purple-text.text-lighten-4, .filter .filter-search-area .chip i.text-lighten-4 {
   color: #e1bee7 !important; }
 
-.purple.lighten-3 {
+.purple.lighten-3, header .date-range .dropdown-content .switch label .lighten-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-3.lever {
   background-color: #ce93d8 !important; }
 
 .purple-text.text-lighten-3, .filter .filter-search-area .chip i.text-lighten-3 {
   color: #ce93d8 !important; }
 
-.purple.lighten-2 {
+.purple.lighten-2, header .date-range .dropdown-content .switch label .lighten-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lighten-2.lever {
   background-color: #ba68c8 !important; }
 
 .purple-text.text-lighten-2, .filter .filter-search-area .chip i.text-lighten-2 {
   color: #ba68c8 !important; }
 
-.purple.lighten-1 {
+.purple.lighten-1, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #ab47bc !important; }
 
 .purple-text.text-lighten-1, .filter .filter-search-area .chip i.text-lighten-1 {
   color: #ab47bc !important; }
 
-.purple {
+.purple, header .date-range .dropdown-content .switch label .lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever {
   background-color: #9c27b0 !important; }
 
 .purple-text, .filter .filter-search-area .chip i {
   color: #9c27b0 !important; }
 
-.purple.darken-1 {
+.purple.darken-1, header .date-range .dropdown-content .switch label .darken-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-1.lever {
   background-color: #8e24aa !important; }
 
 .purple-text.text-darken-1, .tabs > .tab > a.purple-text, .filter .filter-search-area .chip i {
   color: #8e24aa !important; }
 
-.purple.darken-2 {
+.purple.darken-2, header .date-range .dropdown-content .switch label .darken-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-2.lever {
   background-color: #7b1fa2 !important; }
 
 .purple-text.text-darken-2, .filter .filter-search-area .chip i.text-darken-2 {
   color: #7b1fa2 !important; }
 
-.purple.darken-3, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
+.purple.darken-3, header .date-range .dropdown-content .switch label .darken-3.lever, header .date-range .dropdown-content .switch label .results .navbar .lever.select-wrapper, .results .navbar header .date-range .dropdown-content .switch label .lever.select-wrapper, header .date-range .dropdown-content .switch label .results .navbar .select-wrapper .lever.caret, .results .navbar .select-wrapper header .date-range .dropdown-content .switch label .lever.caret, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-3.lever, .results .navbar .purple.select-wrapper, .results .navbar .select-wrapper .purple.caret {
   background-color: #6a1b9a !important; }
 
 .purple-text.text-darken-3, .filter .filter-search-area .chip i.text-darken-3 {
   color: #6a1b9a !important; }
 
-.purple.darken-4 {
+.purple.darken-4, header .date-range .dropdown-content .switch label .darken-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .darken-4.lever {
   background-color: #4a148c !important; }
 
 .purple-text.text-darken-4, .nav-horiz > li > a.purple-text:hover, .filter .filter-search-area .chip i.text-darken-4 {
   color: #4a148c !important; }
 
-.purple.accent-1 {
+.purple.accent-1, header .date-range .dropdown-content .switch label .accent-1.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-1.lever {
   background-color: #ea80fc !important; }
 
 .purple-text.text-accent-1, .filter .filter-search-area .chip i.text-accent-1 {
   color: #ea80fc !important; }
 
-.purple.accent-2 {
+.purple.accent-2, header .date-range .dropdown-content .switch label .accent-2.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-2.lever {
   background-color: #e040fb !important; }
 
 .purple-text.text-accent-2, .filter .filter-search-area .chip i.text-accent-2 {
   color: #e040fb !important; }
 
-.purple.accent-3 {
+.purple.accent-3, header .date-range .dropdown-content .switch label .accent-3.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-3.lever {
   background-color: #d500f9 !important; }
 
 .purple-text.text-accent-3, .filter .filter-search-area .chip i.text-accent-3 {
   color: #d500f9 !important; }
 
-.purple.accent-4, .purple.intro {
+.purple.accent-4, header .date-range .dropdown-content .switch label .accent-4.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .accent-4.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .purple.intro {
   background-color: #aa00ff !important; }
 
 .purple-text.text-accent-4, .query-builder .search-container .search-area .purple-text.queries-nav-collapse:hover, .query-builder .search-container .search-area .filter .filter-search-area .chip i.queries-nav-collapse:hover, .filter .filter-search-area .chip .query-builder .search-container .search-area i.queries-nav-collapse:hover, .query-builder .search-container .search-area input.purple-text[type=text], .query-builder .purple-text.clear-search-area:hover, .query-builder .filter .filter-search-area .chip i.clear-search-area:hover, .filter .filter-search-area .chip .query-builder i.clear-search-area:hover, .query-builder .purple-text.clear-filters:hover, .query-builder .filter .filter-search-area .chip i.clear-filters:hover, .filter .filter-search-area .chip .query-builder i.clear-filters:hover, .filter .filter-search-area .chip i.text-accent-4 {
@@ -17331,7 +17331,7 @@ hr {
 .deep-purple-text.text-lighten-2 {
   color: #9575cd !important; }
 
-.deep-purple.lighten-1 {
+.deep-purple.lighten-1, header .date-range .dropdown-content .switch label .deep-purple.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-purple.lever {
   background-color: #7e57c2 !important; }
 
 .deep-purple-text.text-lighten-1 {
@@ -17415,7 +17415,7 @@ hr {
 .indigo-text.text-lighten-2 {
   color: #7986cb !important; }
 
-.indigo.lighten-1 {
+.indigo.lighten-1, header .date-range .dropdown-content .switch label .indigo.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .indigo.lever {
   background-color: #5c6bc0 !important; }
 
 .indigo-text.text-lighten-1 {
@@ -17499,7 +17499,7 @@ hr {
 .blue-text.text-lighten-2, .side-nav.fixed .main-nav > li:hover > a.text-lighten-2, .side-nav.fixed .main-nav > li.active > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-2.caret {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .side-nav.fixed .main-nav > li.lighten-1.active::before {
+.blue.lighten-1, header .date-range .dropdown-content .switch label .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > li.lever.active::before, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue.lever, header .date-range .dropdown-content .switch label .side-nav.fixed .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed header .date-range .dropdown-content .switch label .main-nav > input[type=checkbox]:checked + li.lever.active::before, .side-nav.fixed .main-nav > li.lighten-1.active::before {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .side-nav.fixed .main-nav > li:hover > a.text-lighten-1, .side-nav.fixed .main-nav > li.active > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper:hover, .results .navbar .select-wrapper:hover .text-lighten-1.caret {
@@ -17583,7 +17583,7 @@ hr {
 .light-blue-text.text-lighten-2, .query-builder .search-container .search-area .text-lighten-2.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-2[type=text] {
   color: #4fc3f7 !important; }
 
-.light-blue.lighten-1, .lighten-1.intro {
+.light-blue.lighten-1, header .date-range .dropdown-content .switch label .light-blue.lever, header .date-range .dropdown-content .switch label .lever.intro, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-blue.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lever.intro, .lighten-1.intro {
   background-color: #29b6f6 !important; }
 
 .light-blue-text.text-lighten-1, .query-builder .search-container .search-area .text-lighten-1.queries-nav-collapse:hover, .query-builder .search-container .search-area input.text-lighten-1[type=text] {
@@ -17667,7 +17667,7 @@ hr {
 .cyan-text.text-lighten-2 {
   color: #4dd0e1 !important; }
 
-.cyan.lighten-1 {
+.cyan.lighten-1, header .date-range .dropdown-content .switch label .cyan.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .cyan.lever {
   background-color: #26c6da !important; }
 
 .cyan-text.text-lighten-1 {
@@ -17751,7 +17751,7 @@ hr {
 .teal-text.text-lighten-2 {
   color: #4db6ac !important; }
 
-.teal.lighten-1 {
+.teal.lighten-1, header .date-range .dropdown-content .switch label .teal.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .teal.lever {
   background-color: #26a69a !important; }
 
 .teal-text.text-lighten-1 {
@@ -17835,7 +17835,7 @@ hr {
 .green-text.text-lighten-2 {
   color: #81C784 !important; }
 
-.green.lighten-1 {
+.green.lighten-1, header .date-range .dropdown-content .switch label .green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .green.lever {
   background-color: #66BB6A !important; }
 
 .green-text.text-lighten-1 {
@@ -17919,7 +17919,7 @@ hr {
 .light-green-text.text-lighten-2 {
   color: #aed581 !important; }
 
-.light-green.lighten-1 {
+.light-green.lighten-1, header .date-range .dropdown-content .switch label .light-green.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .light-green.lever {
   background-color: #9ccc65 !important; }
 
 .light-green-text.text-lighten-1 {
@@ -18003,7 +18003,7 @@ hr {
 .lime-text.text-lighten-2 {
   color: #dce775 !important; }
 
-.lime.lighten-1 {
+.lime.lighten-1, header .date-range .dropdown-content .switch label .lime.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .lime.lever {
   background-color: #d4e157 !important; }
 
 .lime-text.text-lighten-1 {
@@ -18087,7 +18087,7 @@ hr {
 .yellow-text.text-lighten-2 {
   color: #fff176 !important; }
 
-.yellow.lighten-1 {
+.yellow.lighten-1, header .date-range .dropdown-content .switch label .yellow.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .yellow.lever {
   background-color: #ffee58 !important; }
 
 .yellow-text.text-lighten-1 {
@@ -18171,7 +18171,7 @@ hr {
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1 {
+.amber.lighten-1, header .date-range .dropdown-content .switch label .amber.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .amber.lever {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
@@ -18255,7 +18255,7 @@ hr {
 .orange-text.text-lighten-2 {
   color: #ffb74d !important; }
 
-.orange.lighten-1 {
+.orange.lighten-1, header .date-range .dropdown-content .switch label .orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .orange.lever {
   background-color: #ffa726 !important; }
 
 .orange-text.text-lighten-1 {
@@ -18339,7 +18339,7 @@ hr {
 .deep-orange-text.text-lighten-2 {
   color: #ff8a65 !important; }
 
-.deep-orange.lighten-1 {
+.deep-orange.lighten-1, header .date-range .dropdown-content .switch label .deep-orange.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .deep-orange.lever {
   background-color: #ff7043 !important; }
 
 .deep-orange-text.text-lighten-1 {
@@ -18423,7 +18423,7 @@ hr {
 .brown-text.text-lighten-2 {
   color: #a1887f !important; }
 
-.brown.lighten-1 {
+.brown.lighten-1, header .date-range .dropdown-content .switch label .brown.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .brown.lever {
   background-color: #8d6e63 !important; }
 
 .brown-text.text-lighten-1 {
@@ -18483,7 +18483,7 @@ hr {
 .blue-grey-text.text-lighten-2 {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1 {
+.blue-grey.lighten-1, header .date-range .dropdown-content .switch label .blue-grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .blue-grey.lever {
   background-color: #78909c !important; }
 
 .blue-grey-text.text-lighten-1 {
@@ -18543,7 +18543,7 @@ hr {
 .grey-text.text-lighten-2, .nav-horiz > li > a.text-lighten-2:hover, .tabs > .tab > a.text-lighten-2, .results .navbar .text-lighten-2.select-wrapper, .results .navbar .select-wrapper .text-lighten-2.caret {
   color: #e0e0e0 !important; }
 
-.grey.lighten-1 {
+.grey.lighten-1, header .date-range .dropdown-content .switch label .grey.lever, header .date-range .dropdown-content .switch label input[type=checkbox]:checked + .grey.lever {
   background-color: #bdbdbd !important; }
 
 .grey-text.text-lighten-1, .nav-horiz > li > a.text-lighten-1:hover, .tabs > .tab > a.text-lighten-1, .results .navbar .text-lighten-1.select-wrapper, .results .navbar .select-wrapper .text-lighten-1.caret {
@@ -18585,7 +18585,7 @@ hr {
 .shades-text.text-black {
   color: #000000 !important; }
 
-.shades.white, .tabs.transparent .shades.indicator {
+.shades.white, .tabs.transparent .shades.indicator, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .shades.slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .shades.btn-large {
   background-color: #FFFFFF !important; }
 
 .shades-text.text-white {
@@ -18603,10 +18603,10 @@ hr {
 .black-text {
   color: #000000 !important; }
 
-.white, .tabs.transparent .indicator {
+.white, .tabs.transparent .indicator, header .date-range .dropdown-content .presets-range .date-slider .slider-segment.active, header .date-range .dropdown-content .presets-range .date-slider .slider-segment:active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-large {
   background-color: #FFFFFF !important; }
 
-.white-text, .filter .filter-search-area .chip {
+.white-text, header .date-range .dropdown-content .presets-range .date-slider .slider-title.active, header .date-range .dropdown-content .presets-range .date-slider td:hover .btn-flat, .filter .filter-search-area .chip {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -18658,7 +18658,7 @@ hr {
 .clearfix:after, .list-unstyled:after, .side-nav.fixed .main-nav:after, .nav-horiz:after, .action-btn:after {
   clear: both; }
 
-.modal.full, header nav.top-nav, header .user-menu > li > a, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container {
+.modal.full, header nav.top-nav, header .user-menu > li > a, header .date-range .dropdown-content .presets-range .date-slider .slider-segment, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container {
   box-shadow: none !important; }
 
 .query-builder .search-container .search-area .chip:hover, .results .article-list article:hover, .filter .filter-search-area .chip:hover {
@@ -18749,42 +18749,94 @@ header .date-range {
   border-bottom-right-radius: 18px;
   border-bottom-left-radius: 18px;
   border-top-left-radius: 18px;
-  margin: 16px 0;
-  position: relative; }
+  margin: 16px 0; }
+  header .date-range .dropdown-button {
+    line-height: 32px;
+    padding: 0px 10px;
+    height: 36px;
+    display: block; }
+    header .date-range .dropdown-button span {
+      vertical-align: middle;
+      margin-right: 6px;
+      margin-left: 6px; }
   header .date-range:hover {
+    background-color: rgba(0, 0, 0, 0.04);
     border-color: rgba(255, 255, 255, 0.8);
     color: rgba(255, 255, 255, 0.8); }
-  header .date-range .absolute {
-    top: 0px;
-    font-size: 1.6rem;
-    height: 36px;
-    line-height: 36px;
-    pointer-events: none; }
-    header .date-range .absolute.left {
-      left: 12px; }
-    header .date-range .absolute.right {
-      right: 12px; }
-  header .date-range input[type=text] {
-    -webkit-border-top-right-radius: 18px;
-    -webkit-border-bottom-right-radius: 18px;
-    -webkit-border-bottom-left-radius: 18px;
-    -webkit-border-top-left-radius: 18px;
-    -moz-border-radius-topright: 18px;
-    -moz-border-radius-bottomright: 18px;
-    -moz-border-radius-bottomleft: 18px;
-    -moz-border-radius-topleft: 18px;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
-    border-bottom-left-radius: 18px;
-    border-top-left-radius: 18px;
-    padding: 0 36px 0 46px;
-    width: auto;
-    cursor: pointer;
-    height: 36px;
-    line-height: 36px;
-    vertical-align: top;
-    margin: 0;
-    border: 0; }
+  header .date-range .dropdown-content {
+    left: auto !important;
+    right: 10px;
+    width: 400px;
+    padding: 0; }
+    header .date-range .dropdown-content::after {
+      border-bottom-color: #7b1fa2; }
+    header .date-range .dropdown-content .switch .lever:after {
+      background-color: #ba68c8; }
+    header .date-range .dropdown-content .switch input[type=checkbox]:checked + .lever:after {
+      background-color: #9c27b0; }
+    header .date-range .dropdown-content .presets-range {
+      width: 100%;
+      height: 76px;
+      position: relative;
+        /*
+                background-color: $brand-lighten-vii;
+                border-top: 1px solid $brand-lighten-vi;
+                border-bottom: 1px solid $brand-lighten-vi;
+
+        */ }
+      header .date-range .dropdown-content .presets-range::before {
+        border-bottom: 1px solid #ba68c8;
+        position: absolute;
+        content: '';
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        top: 26px;
+        z-index: 0; }
+      header .date-range .dropdown-content .presets-range table {
+        position: absolute;
+        width: 100%;
+        top: 18px;
+        z-index: 1; }
+        header .date-range .dropdown-content .presets-range table tr > td {
+          width: 25%;
+          padding: 0 5px;
+          text-align: center;
+          height: auto;
+          line-height: 100%; }
+      header .date-range .dropdown-content .presets-range .date-slider .slider-segment {
+        display: block;
+        margin: 0 auto;
+        width: 18px;
+        height: 18px;
+        padding: 0;
+        text-align: center;
+        background-color: #ba68c8;
+        -webkit-border-top-right-radius: 50%;
+        -webkit-border-bottom-right-radius: 50%;
+        -webkit-border-bottom-left-radius: 50%;
+        -webkit-border-top-left-radius: 50%;
+        -moz-border-radius-topright: 50%;
+        -moz-border-radius-bottomright: 50%;
+        -moz-border-radius-bottomleft: 50%;
+        -moz-border-radius-topleft: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%; }
+        header .date-range .dropdown-content .presets-range .date-slider .slider-segment.active {
+          cursor: default; }
+      header .date-range .dropdown-content .presets-range .date-slider .slider-title {
+        display: block;
+        margin: 0 auto;
+        background-color: transparent;
+        color: #ba68c8;
+        font-size: 12px;
+        text-align: center;
+        padding: 0;
+        letter-spacing: -0.5pt; }
+        header .date-range .dropdown-content .presets-range .date-slider .slider-title.active {
+          cursor: default; }
 
 main {
   margin-top: -50px;
