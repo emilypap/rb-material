@@ -17005,6 +17005,20 @@ hr {
   pointer-events: none !important;
   cursor: default !important; }
 
+.pagination li {
+  padding: 0;
+  border-radius: 0;
+  text-align: center; }
+  .pagination li a {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 30px;
+    border-radius: 2px; }
+  .pagination li.active {
+    background-color: transparent; }
+    .pagination li.active a {
+      background-color: #0091ea; }
+
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 
