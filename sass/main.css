@@ -16995,6 +16995,16 @@ hr {
   border: 0;
   border-bottom: 1px solid #dbdbdb; }
 
+.disabled {
+  -webkit-filter: grayscale(50%) blur(0) opacity(0.75);
+  -moz-filter: grayscale(50%) blur(0) opacity(0.75);
+  -ms-filter: grayscale(50%) blur(0) opacity(0.75);
+  -o-filter: grayscale(50%) blur(0) opacity(0.75);
+  filter: grayscale(50%) blur(0) opacity(0.75);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='1');
+  pointer-events: none !important;
+  cursor: default !important; }
+
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 

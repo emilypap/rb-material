@@ -386,3 +386,9 @@ hr {
   border: 0;
   border-bottom: 1px solid $brand-lighten-iv;
 }
+
+.disabled {
+  @include blur(50%, 0, 0.75);
+  pointer-events: none !important;
+  cursor: default !important;
+}
