@@ -157,16 +157,45 @@ header {
       .switch {
 
         label .lever {
-          @extend .purple, .lighten-1;
+          height: 18px;
+          background-color: $brand-purple-light;
         }
-        label input[type=checkbox]:checked + .lever {
-          @extend .purple, .lighten-1;
+
+        .lever:before {
+          position: absolute;
+          content: "Off";
+          right: 6px;
+          top: 0;
+          line-height: 20px;
+          font-size: 10px;
+          font-weight: 400;
+          @extend .purple-text, .text-darken-4;
         }
+
         .lever:after {
-          @extend .purple, .lighten-1;
+          @extend .purple, .darken-4;
+          width: 20px;
+          height: 20px;
+          border-radius: 21px;
+          left: -2px;
+          top: -1px;
         }
+
+        label input[type=checkbox]:checked + .lever {
+          @extend .purple, .darken-4;
+        }
+
+        input[type=checkbox]:checked + .lever:before {
+          content: "On";
+          left: 6px;
+          right: auto;
+          color: $brand-purple-light !important;
+        }
+
         input[type=checkbox]:checked + .lever:after {
-          background-color: $brand-purple;
+          @extend .white;
+          left: auto;
+          right: -2px;
         }
       }
 
@@ -174,12 +203,6 @@ header {
         width: 100%;
         height: 76px;
         position: relative;
-        /*
-                background-color: $brand-lighten-vii;
-                border-top: 1px solid $brand-lighten-vi;
-                border-bottom: 1px solid $brand-lighten-vi;
-
-        */
 
         &::before {
           border-bottom: 1px solid $brand-purple-light;
@@ -223,11 +246,9 @@ header {
               @extend .white;
 
             }
-
             &.active {
               cursor: default;
             }
-
           }
 
           .slider-title {
