@@ -798,9 +798,9 @@ main {
     .query-builder {
       background: transparent !important;
 
-      .queries-nav-collapse,
+      .search-container .search-area a.queries-nav-collapse,
       .filters-nav > li > a {
-        color: rgba($brand-white, 0.8);
+        color: rgba($brand-white, 0.8) !important;
         &:hover {
           color: $brand-white !important;
         }
@@ -821,10 +821,15 @@ main {
       .search-container {
         border-color: rgba($brand-white, 0.25);
 
+        .chip {
+          color: rgba($brand-white, 0.65);
+          background-color: darken($primary-color, 4%);
+          margin-bottom:4px ;
+        }
+
         .search-area input[type=text] {
           color: $brand-white !important;
           font-size: 1.2rem;
-
 
         }
 
@@ -834,6 +839,7 @@ main {
         }
 
       }
+
       ::-webkit-input-placeholder {
         font-size: 1.2rem;
         color: rgba($brand-white, 0.5) !important;
@@ -852,8 +858,21 @@ main {
       }
 
     }
+    .query-toolbar {
+      top: 6px;
 
-    .result-container, .query-toolbar, .search-area-tools {
+      > li > a:not(.more-btn) {
+        opacity: 0;
+        pointer-events: none
+      }
+
+      .more-btn {
+        @extend %z-depth-0;
+        color: $brand-white !important;
+        background-color: transparent !important;
+      }
+    }
+    .result-container, .search-area-tools {
       opacity: 0;
       pointer-events: none;
     }
@@ -861,7 +880,8 @@ main {
   }
 }
 
-.main-body, .main-body .container, .query-builder, .result-container, .query-toolbar, .search-area-tools, .filters-nav {
+.main-body, .main-body .container, .query-builder, .result-container,.query-toolbar, .query-toolbar > li > a , .search-area-tools, .filters-nav {
   @include transition(all, 0.65s, ease-in-out);
+
   opacity: 1;
 }
