@@ -4,3 +4,4 @@ js/
 sass/.sass-cache/
 sass/components/
 .idea/
+*.css

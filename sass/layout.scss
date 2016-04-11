@@ -818,17 +818,22 @@ main {
         }
       }
 
-      .materialize-textarea {
+      .search-container {
         border-color: rgba($brand-white, 0.25);
-        color: $brand-white !important;
-        font-size: 1.2rem;
+
+        .search-area input[type=text] {
+          color: $brand-white !important;
+          font-size: 1.2rem;
+
+
+        }
 
         &:hover, &:focus {
           border-color: rgba($brand-white, 0.75);
 
         }
-      }
 
+      }
       ::-webkit-input-placeholder {
         font-size: 1.2rem;
         color: rgba($brand-white, 0.5) !important;
@@ -856,7 +861,7 @@ main {
   }
 }
 
-main, main .container, .query-builder, .result-container, .query-toolbar, .search-area-tools, .filters-nav {
+.main-body, .main-body .container, .query-builder, .result-container, .query-toolbar, .search-area-tools, .filters-nav {
   @include transition(all, 0.65s, ease-in-out);
   opacity: 1;
 }

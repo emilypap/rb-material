@@ -17014,6 +17014,8 @@ hr {
     padding: 0 10px;
     line-height: 30px;
     border-radius: 2px; }
+    .pagination li a:hover {
+      background-color: #eeeeee; }
   .pagination li.active {
     background-color: transparent; }
     .pagination li.active a {
@@ -19230,11 +19232,12 @@ main {
         display: table; }
         .intro .container .query-builder .filters-nav > li {
           margin: 0 0 0 24px; }
-      .intro .container .query-builder .materialize-textarea {
-        border-color: rgba(255, 255, 255, 0.25);
-        color: #FFF !important;
-        font-size: 1.2rem; }
-        .intro .container .query-builder .materialize-textarea:hover, .intro .container .query-builder .materialize-textarea:focus {
+      .intro .container .query-builder .search-container {
+        border-color: rgba(255, 255, 255, 0.25); }
+        .intro .container .query-builder .search-container .search-area input[type=text] {
+          color: #FFF !important;
+          font-size: 1.2rem; }
+        .intro .container .query-builder .search-container:hover, .intro .container .query-builder .search-container:focus {
           border-color: rgba(255, 255, 255, 0.75); }
       .intro .container .query-builder ::-webkit-input-placeholder {
         font-size: 1.2rem;
@@ -19252,7 +19255,7 @@ main {
       opacity: 0;
       pointer-events: none; }
 
-main, main .container, .query-builder, .result-container, .query-toolbar, .search-area-tools, .filters-nav {
+.main-body, .main-body .container, .query-builder, .result-container, .query-toolbar, .search-area-tools, .filters-nav {
   -webkit-transition: all 0.65s ease-in-out;
   -o-transition: all 0.65s ease-in-out;
   transition: all 0.65s ease-in-out;

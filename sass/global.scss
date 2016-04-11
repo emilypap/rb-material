@@ -402,6 +402,10 @@ hr {
     padding: 0 10px;
     line-height: 30px;
     border-radius: 2px;
+
+    &:hover{
+      background-color: $brand-lighten-v;
+    }
   }
 
   &.active{
