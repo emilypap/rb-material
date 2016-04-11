@@ -13382,7 +13382,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .clearfix:after, .list-unstyled:after, .side-nav.fixed .main-nav:after, .nav-horiz:after, .action-btn:after {
   clear: both; }
 
-.modal.full, header nav.top-nav, header .user-menu > li > a, header .date-range .dropdown-content .presets-range .date-slider .slider-segment, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container {
+.modal.full, header nav.top-nav, header .user-menu > li > a, header .date-range .dropdown-content .presets-range .date-slider .slider-segment, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container, .intro .container .query-toolbar .more-btn {
   box-shadow: none !important; }
 
 .query-builder .search-container .search-area .chip:hover, .results .article-list article:hover, .filter .filter-search-area .chip:hover {
@@ -16701,7 +16701,7 @@ label {
 .clearfix:after, .list-unstyled:after, .side-nav.fixed .main-nav:after, .nav-horiz:after, .action-btn:after {
   clear: both; }
 
-.modal.full, header nav.top-nav, header .user-menu > li > a, header .date-range .dropdown-content .presets-range .date-slider .slider-segment, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container {
+.modal.full, header nav.top-nav, header .user-menu > li > a, header .date-range .dropdown-content .presets-range .date-slider .slider-segment, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container, .intro .container .query-toolbar .more-btn {
   box-shadow: none !important; }
 
 .query-builder .search-container .search-area .chip:hover, .results .article-list article:hover, .filter .filter-search-area .chip:hover {
@@ -16709,6 +16709,10 @@ label {
 
 main .container {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.rb-icon {
+  font-size: 24px;
+  vertical-align: middle; }
 
 .progress {
   margin: 0;
@@ -16785,7 +16789,7 @@ main .container {
       line-height: 37px; }
 
 .dropdown-content li > a > i {
-  vertical-align: top; }
+  vertical-align: middle; }
 .dropdown-content.arrow-right::after {
   position: absolute;
   top: -8px;
@@ -18684,7 +18688,7 @@ hr {
 .clearfix:after, .list-unstyled:after, .side-nav.fixed .main-nav:after, .nav-horiz:after, .action-btn:after {
   clear: both; }
 
-.modal.full, header nav.top-nav, header .user-menu > li > a, header .date-range .dropdown-content .presets-range .date-slider .slider-segment, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container {
+.modal.full, header nav.top-nav, header .user-menu > li > a, header .date-range .dropdown-content .presets-range .date-slider .slider-segment, .query-builder .search-container .search-area input[type=text], .filter .filter-search-area input[type=text], .intro .container, .intro .container .query-toolbar .more-btn {
   box-shadow: none !important; }
 
 .query-builder .search-container .search-area .chip:hover, .results .article-list article:hover, .filter .filter-search-area .chip:hover {
@@ -19219,10 +19223,10 @@ main {
     background: transparent !important; }
     .intro .container .query-builder {
       background: transparent !important; }
-      .intro .container .query-builder .queries-nav-collapse,
+      .intro .container .query-builder .search-container .search-area a.queries-nav-collapse,
       .intro .container .query-builder .filters-nav > li > a {
-        color: rgba(255, 255, 255, 0.8); }
-        .intro .container .query-builder .queries-nav-collapse:hover,
+        color: rgba(255, 255, 255, 0.8) !important; }
+        .intro .container .query-builder .search-container .search-area a.queries-nav-collapse:hover,
         .intro .container .query-builder .filters-nav > li > a:hover {
           color: #FFF !important; }
       .intro .container .query-builder .filters-nav {
@@ -19234,6 +19238,10 @@ main {
           margin: 0 0 0 24px; }
       .intro .container .query-builder .search-container {
         border-color: rgba(255, 255, 255, 0.25); }
+        .intro .container .query-builder .search-container .chip {
+          color: rgba(255, 255, 255, 0.65);
+          background-color: #0084d6;
+          margin-bottom: 4px; }
         .intro .container .query-builder .search-container .search-area input[type=text] {
           color: #FFF !important;
           font-size: 1.2rem; }
@@ -19251,11 +19259,19 @@ main {
       .intro .container .query-builder :-ms-input-placeholder {
         font-size: 1.2rem;
         color: rgba(255, 255, 255, 0.5) !important; }
-    .intro .container .result-container, .intro .container .query-toolbar, .intro .container .search-area-tools {
+    .intro .container .query-toolbar {
+      top: 6px; }
+      .intro .container .query-toolbar > li > a:not(.more-btn) {
+        opacity: 0;
+        pointer-events: none; }
+      .intro .container .query-toolbar .more-btn {
+        color: #FFF !important;
+        background-color: transparent !important; }
+    .intro .container .result-container, .intro .container .search-area-tools {
       opacity: 0;
       pointer-events: none; }
 
-.main-body, .main-body .container, .query-builder, .result-container, .query-toolbar, .search-area-tools, .filters-nav {
+.main-body, .main-body .container, .query-builder, .result-container, .query-toolbar, .query-toolbar > li > a, .search-area-tools, .filters-nav {
   -webkit-transition: all 0.65s ease-in-out;
   -o-transition: all 0.65s ease-in-out;
   transition: all 0.65s ease-in-out;
